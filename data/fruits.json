@@ -1,0 +1,189 @@
+{
+  "source": "fruits.ts",
+  "generatedAt": "2026-09-03T06:53:49.946Z",
+  "items": [
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "sellPrice": 2,
+      "isBush": true,
+      "seed": {
+        "name": "Tomato Seed",
+        "price": 5,
+        "plantSeconds": 7200,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 13
+        },
+        "yield": "Tomato",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit",
+      "description": "Rich in Lycopene"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "sellPrice": 6,
+      "isBush": false,
+      "seed": {
+        "name": "Lemon Seed",
+        "price": 15,
+        "plantSeconds": 14400,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 12
+        },
+        "yield": "Lemon",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit",
+      "description": "Because sometimes, you just can't squeeze an orange!"
+    },
+    {
+      "id": "blueberry",
+      "name": "Blueberry",
+      "sellPrice": 12,
+      "isBush": true,
+      "seed": {
+        "name": "Blueberry Seed",
+        "price": 30,
+        "plantSeconds": 21600,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 13
+        },
+        "yield": "Blueberry",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "sellPrice": 18,
+      "isBush": false,
+      "seed": {
+        "name": "Orange Seed",
+        "price": 50,
+        "plantSeconds": 28800,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 14
+        },
+        "yield": "Orange",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "sellPrice": 25,
+      "isBush": false,
+      "seed": {
+        "name": "Apple Seed",
+        "price": 70,
+        "plantSeconds": 43200,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 15
+        },
+        "yield": "Apple",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "sellPrice": 25,
+      "isBush": true,
+      "seed": {
+        "name": "Banana Plant",
+        "price": 70,
+        "plantSeconds": 43200,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 16
+        },
+        "yield": "Banana",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "celestine",
+      "name": "Celestine",
+      "sellPrice": 200,
+      "isBush": true,
+      "seed": {
+        "name": "Celestine Seed",
+        "price": 300,
+        "plantSeconds": 21600,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 12
+        },
+        "yield": "Celestine",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "lunara",
+      "name": "Lunara",
+      "sellPrice": 500,
+      "isBush": true,
+      "seed": {
+        "name": "Lunara Seed",
+        "price": 750,
+        "plantSeconds": 43200,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 12
+        },
+        "yield": "Lunara",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "duskberry",
+      "name": "Duskberry",
+      "sellPrice": 1000,
+      "isBush": true,
+      "seed": {
+        "name": "Duskberry Seed",
+        "price": 1250,
+        "plantSeconds": 86400,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 12
+        },
+        "yield": "Duskberry",
+        "plantingSpot": "Fruit Patch"
+      },
+      "kind": "patch-fruit"
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "sellPrice": 240,
+      "isBush": false,
+      "seed": {
+        "name": "Grape Seed",
+        "price": 160,
+        "plantSeconds": 43200,
+        "bumpkinLevel": {
+          "ascension": 0,
+          "level": 40
+        },
+        "yield": "Grape",
+        "plantingSpot": "Greenhouse"
+      },
+      "kind": "greenhouse-fruit",
+      "description": "A bunch of grapes"
+    }
+  ]
+}

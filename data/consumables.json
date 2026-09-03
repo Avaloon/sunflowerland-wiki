@@ -1,0 +1,1047 @@
+{
+  "source": "consumables.ts (FIRE_PIT_COOKABLES, KITCHEN_COOKABLES, BAKERY_COOKABLES, DELI_COOKABLES, JUICE_COOKABLES)",
+  "generatedAt": "2026-09-03T06:53:49.953Z",
+  "items": [
+    {
+      "id": "furikake-sprinkle",
+      "name": "Furikake Sprinkle",
+      "cookingSeconds": 0,
+      "experience": 1000,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Fish Flake": 1,
+        "Seaweed": 1
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "mashed-potato",
+      "name": "Mashed Potato",
+      "cookingSeconds": 30,
+      "experience": 3,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Potato": 8
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "pumpkin-soup",
+      "name": "Pumpkin Soup",
+      "cookingSeconds": 180,
+      "experience": 24,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Pumpkin": 10
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "reindeer-carrot",
+      "name": "Reindeer Carrot",
+      "cookingSeconds": 300,
+      "experience": 36,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Carrot": 5
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "mushroom-soup",
+      "name": "Mushroom Soup",
+      "cookingSeconds": 600,
+      "experience": 56,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Wild Mushroom": 5
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "popcorn",
+      "name": "Popcorn",
+      "cookingSeconds": 720,
+      "experience": 200,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Sunflower": 100,
+        "Corn": 5
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "bumpkin-broth",
+      "name": "Bumpkin Broth",
+      "cookingSeconds": 1200,
+      "experience": 96,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Carrot": 10,
+        "Cabbage": 5
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "cabbers-n-mash",
+      "name": "Cabbers n Mash",
+      "cookingSeconds": 2400,
+      "experience": 250,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Mashed Potato": 10,
+        "Cabbage": 20
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "boiled-eggs",
+      "name": "Boiled Eggs",
+      "cookingSeconds": 3600,
+      "experience": 90,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Egg": 10
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "kale-stew",
+      "name": "Kale Stew",
+      "cookingSeconds": 7200,
+      "experience": 400,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Kale": 10
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "kale-omelette",
+      "name": "Kale Omelette",
+      "cookingSeconds": 12600,
+      "experience": 1250,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Egg": 40,
+        "Kale": 5
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "gumbo",
+      "name": "Gumbo",
+      "cookingSeconds": 14400,
+      "experience": 600,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Potato": 50,
+        "Pumpkin": 30,
+        "Carrot": 20,
+        "Red Snapper": 3
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "rapid-roast",
+      "name": "Rapid Roast",
+      "cookingSeconds": 10,
+      "experience": 300,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Magic Mushroom": 1,
+        "Pumpkin": 40
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "saltbite",
+      "name": "Saltbite",
+      "cookingSeconds": 14400,
+      "experience": 3000,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Saltwort": 10
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "fried-tofu",
+      "name": "Fried Tofu",
+      "cookingSeconds": 5400,
+      "experience": 400,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Soybean": 15,
+        "Sunflower": 200
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "rice-bun",
+      "name": "Rice Bun",
+      "cookingSeconds": 18000,
+      "experience": 2600,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Rice": 2,
+        "Wheat": 50
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "antipasto",
+      "name": "Antipasto",
+      "cookingSeconds": 10800,
+      "experience": 3000,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Olive": 2,
+        "Grape": 2
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "pizza-margherita",
+      "name": "Pizza Margherita",
+      "cookingSeconds": 72000,
+      "experience": 25000,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Tomato": 30,
+        "Cheese": 5,
+        "Wheat": 20
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "rhubarb-tart",
+      "name": "Rhubarb Tart",
+      "cookingSeconds": 60,
+      "experience": 5,
+      "building": "Fire Pit",
+      "ingredients": {
+        "Rhubarb": 3
+      },
+      "table": "FIRE_PIT_COOKABLES"
+    },
+    {
+      "id": "surimi-rice-bowl",
+      "name": "Surimi Rice Bowl",
+      "cookingSeconds": 0,
+      "experience": 3000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Fish Stick": 1,
+        "Rice": 1,
+        "Onion": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "creamy-crab-bite",
+      "name": "Creamy Crab Bite",
+      "cookingSeconds": 0,
+      "experience": 10000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Crab Stick": 1,
+        "Cheese": 3
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "crimstone-infused-fish-oil",
+      "name": "Crimstone Infused Fish Oil",
+      "cookingSeconds": 0,
+      "experience": 18000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Fish Oil": 1,
+        "Crimstone": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "sunflower-crunch",
+      "name": "Sunflower Crunch",
+      "cookingSeconds": 600,
+      "experience": 50,
+      "building": "Kitchen",
+      "ingredients": {
+        "Sunflower": 300
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "mushroom-jacket-potatoes",
+      "name": "Mushroom Jacket Potatoes",
+      "cookingSeconds": 600,
+      "experience": 240,
+      "building": "Kitchen",
+      "ingredients": {
+        "Wild Mushroom": 10,
+        "Potato": 5
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "fruit-salad",
+      "name": "Fruit Salad",
+      "cookingSeconds": 1800,
+      "experience": 225,
+      "building": "Kitchen",
+      "ingredients": {
+        "Apple": 1,
+        "Orange": 1,
+        "Blueberry": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "pancakes",
+      "name": "Pancakes",
+      "cookingSeconds": 3600,
+      "experience": 1000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Wheat": 10,
+        "Egg": 10,
+        "Honey": 6
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "roast-veggies",
+      "name": "Roast Veggies",
+      "cookingSeconds": 7200,
+      "experience": 170,
+      "building": "Kitchen",
+      "ingredients": {
+        "Cauliflower": 15,
+        "Carrot": 10
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "cauliflower-burger",
+      "name": "Cauliflower Burger",
+      "cookingSeconds": 10800,
+      "experience": 255,
+      "building": "Kitchen",
+      "ingredients": {
+        "Cauliflower": 15,
+        "Wheat": 5
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "club-sandwich",
+      "name": "Club Sandwich",
+      "cookingSeconds": 10800,
+      "experience": 170,
+      "building": "Kitchen",
+      "ingredients": {
+        "Sunflower": 100,
+        "Carrot": 25,
+        "Wheat": 5
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "bumpkin-salad",
+      "name": "Bumpkin Salad",
+      "cookingSeconds": 12600,
+      "experience": 290,
+      "building": "Kitchen",
+      "ingredients": {
+        "Beetroot": 20,
+        "Parsnip": 10
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "bumpkin-ganoush",
+      "name": "Bumpkin ganoush",
+      "cookingSeconds": 18000,
+      "experience": 1000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Eggplant": 30,
+        "Potato": 50,
+        "Parsnip": 10
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "goblins-treat",
+      "name": "Goblin's Treat",
+      "cookingSeconds": 21600,
+      "experience": 500,
+      "building": "Kitchen",
+      "ingredients": {
+        "Pumpkin": 10,
+        "Radish": 20,
+        "Cabbage": 10
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "chowder",
+      "name": "Chowder",
+      "cookingSeconds": 28800,
+      "experience": 1000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Beetroot": 10,
+        "Wheat": 10,
+        "Parsnip": 5,
+        "Anchovy": 3
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "bumpkin-roast",
+      "name": "Bumpkin Roast",
+      "cookingSeconds": 43200,
+      "experience": 2500,
+      "building": "Kitchen",
+      "ingredients": {
+        "Mashed Potato": 20,
+        "Roast Veggies": 5
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "goblin-brunch",
+      "name": "Goblin Brunch",
+      "cookingSeconds": 43200,
+      "experience": 2500,
+      "building": "Kitchen",
+      "ingredients": {
+        "Boiled Eggs": 5,
+        "Goblin's Treat": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "beetroot-blaze",
+      "name": "Beetroot Blaze",
+      "cookingSeconds": 30,
+      "experience": 2000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Magic Mushroom": 2,
+        "Beetroot": 50
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "steamed-red-rice",
+      "name": "Steamed Red Rice",
+      "cookingSeconds": 14400,
+      "experience": 3000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Rice": 3,
+        "Beetroot": 50
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "tofu-scramble",
+      "name": "Tofu Scramble",
+      "cookingSeconds": 10800,
+      "experience": 1000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Soybean": 20,
+        "Egg": 20,
+        "Cauliflower": 10
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "fried-calamari",
+      "name": "Fried Calamari",
+      "cookingSeconds": 18000,
+      "experience": 1500,
+      "building": "Kitchen",
+      "ingredients": {
+        "Sunflower": 200,
+        "Wheat": 15,
+        "Squid": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "fish-burger",
+      "name": "Fish Burger",
+      "cookingSeconds": 7200,
+      "experience": 1300,
+      "building": "Kitchen",
+      "ingredients": {
+        "Beetroot": 10,
+        "Wheat": 10,
+        "Horse Mackerel": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "fish-omelette",
+      "name": "Fish Omelette",
+      "cookingSeconds": 18000,
+      "experience": 1500,
+      "building": "Kitchen",
+      "ingredients": {
+        "Egg": 40,
+        "Surgeonfish": 1,
+        "Butterflyfish": 2
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "oceans-olive",
+      "name": "Ocean's Olive",
+      "cookingSeconds": 7200,
+      "experience": 2000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Olive Flounder": 1,
+        "Olive": 2
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "seafood-basket",
+      "name": "Seafood Basket",
+      "cookingSeconds": 18000,
+      "experience": 2200,
+      "building": "Kitchen",
+      "ingredients": {
+        "Blowfish": 2,
+        "Napoleanfish": 2,
+        "Sunfish": 2
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "fish-n-chips",
+      "name": "Fish n Chips",
+      "cookingSeconds": 14400,
+      "experience": 2000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Fancy Fries": 1,
+        "Halibut": 1
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "sushi-roll",
+      "name": "Sushi Roll",
+      "cookingSeconds": 3600,
+      "experience": 2000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Angelfish": 1,
+        "Seaweed": 1,
+        "Rice": 2
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "caprese-salad",
+      "name": "Caprese Salad",
+      "cookingSeconds": 10800,
+      "experience": 6000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Cheese": 1,
+        "Tomato": 25,
+        "Kale": 20
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "spaghetti-al-limone",
+      "name": "Spaghetti al Limone",
+      "cookingSeconds": 54000,
+      "experience": 15000,
+      "building": "Kitchen",
+      "ingredients": {
+        "Wheat": 10,
+        "Lemon": 15,
+        "Cheese": 3
+      },
+      "table": "KITCHEN_COOKABLES"
+    },
+    {
+      "id": "apple-pie",
+      "name": "Apple Pie",
+      "cookingSeconds": 14400,
+      "experience": 720,
+      "building": "Bakery",
+      "ingredients": {
+        "Apple": 5,
+        "Wheat": 10,
+        "Egg": 20
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "orange-cake",
+      "name": "Orange Cake",
+      "cookingSeconds": 14400,
+      "experience": 730,
+      "building": "Bakery",
+      "ingredients": {
+        "Orange": 5,
+        "Egg": 30,
+        "Wheat": 10
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "kale-mushroom-pie",
+      "name": "Kale & Mushroom Pie",
+      "cookingSeconds": 14400,
+      "experience": 720,
+      "building": "Bakery",
+      "ingredients": {
+        "Wild Mushroom": 10,
+        "Kale": 5,
+        "Wheat": 5
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "sunflower-cake",
+      "name": "Sunflower Cake",
+      "cookingSeconds": 23400,
+      "experience": 525,
+      "building": "Bakery",
+      "ingredients": {
+        "Sunflower": 1000,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "honey-cake",
+      "name": "Honey Cake",
+      "cookingSeconds": 28800,
+      "experience": 4000,
+      "building": "Bakery",
+      "ingredients": {
+        "Honey": 10,
+        "Wheat": 10,
+        "Egg": 20
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "potato-cake",
+      "name": "Potato Cake",
+      "cookingSeconds": 37800,
+      "experience": 650,
+      "building": "Bakery",
+      "ingredients": {
+        "Potato": 500,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "pumpkin-cake",
+      "name": "Pumpkin Cake",
+      "cookingSeconds": 37800,
+      "experience": 625,
+      "building": "Bakery",
+      "ingredients": {
+        "Pumpkin": 130,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "cornbread",
+      "name": "Cornbread",
+      "cookingSeconds": 43200,
+      "experience": 600,
+      "building": "Bakery",
+      "ingredients": {
+        "Corn": 15,
+        "Wheat": 5,
+        "Egg": 10
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "carrot-cake",
+      "name": "Carrot Cake",
+      "cookingSeconds": 46800,
+      "experience": 750,
+      "building": "Bakery",
+      "ingredients": {
+        "Carrot": 120,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "cabbage-cake",
+      "name": "Cabbage Cake",
+      "cookingSeconds": 54000,
+      "experience": 860,
+      "building": "Bakery",
+      "ingredients": {
+        "Cabbage": 90,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "beetroot-cake",
+      "name": "Beetroot Cake",
+      "cookingSeconds": 79200,
+      "experience": 1250,
+      "building": "Bakery",
+      "ingredients": {
+        "Beetroot": 100,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "cauliflower-cake",
+      "name": "Cauliflower Cake",
+      "cookingSeconds": 79200,
+      "experience": 1190,
+      "building": "Bakery",
+      "ingredients": {
+        "Cauliflower": 60,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "parsnip-cake",
+      "name": "Parsnip Cake",
+      "cookingSeconds": 86400,
+      "experience": 1300,
+      "building": "Bakery",
+      "ingredients": {
+        "Parsnip": 45,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "eggplant-cake",
+      "name": "Eggplant Cake",
+      "cookingSeconds": 86400,
+      "experience": 1400,
+      "building": "Bakery",
+      "ingredients": {
+        "Eggplant": 30,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "radish-cake",
+      "name": "Radish Cake",
+      "cookingSeconds": 86400,
+      "experience": 1200,
+      "building": "Bakery",
+      "ingredients": {
+        "Radish": 25,
+        "Wheat": 10,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "wheat-cake",
+      "name": "Wheat Cake",
+      "cookingSeconds": 86400,
+      "experience": 1100,
+      "building": "Bakery",
+      "ingredients": {
+        "Wheat": 35,
+        "Egg": 30
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "lemon-cheesecake",
+      "name": "Lemon Cheesecake",
+      "cookingSeconds": 108000,
+      "experience": 30000,
+      "building": "Bakery",
+      "ingredients": {
+        "Lemon": 20,
+        "Cheese": 5,
+        "Egg": 40
+      },
+      "table": "BAKERY_COOKABLES"
+    },
+    {
+      "id": "blueberry-jam",
+      "name": "Blueberry Jam",
+      "cookingSeconds": 43200,
+      "experience": 500,
+      "building": "Deli",
+      "ingredients": {
+        "Blueberry": 5
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "fermented-carrots",
+      "name": "Fermented Carrots",
+      "cookingSeconds": 86400,
+      "experience": 250,
+      "building": "Deli",
+      "ingredients": {
+        "Carrot": 20
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "sauerkraut",
+      "name": "Sauerkraut",
+      "cookingSeconds": 86400,
+      "experience": 500,
+      "building": "Deli",
+      "ingredients": {
+        "Cabbage": 20
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "fancy-fries",
+      "name": "Fancy Fries",
+      "cookingSeconds": 86400,
+      "experience": 1000,
+      "building": "Deli",
+      "ingredients": {
+        "Sunflower": 500,
+        "Potato": 500
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "fermented-fish",
+      "name": "Fermented Fish",
+      "cookingSeconds": 86400,
+      "experience": 3000,
+      "building": "Deli",
+      "ingredients": {
+        "Tuna": 6
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "shroom-syrup",
+      "name": "Shroom Syrup",
+      "cookingSeconds": 10,
+      "experience": 10000,
+      "building": "Deli",
+      "ingredients": {
+        "Magic Mushroom": 3,
+        "Honey": 20
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "cookingSeconds": 1200,
+      "experience": 1,
+      "building": "Deli",
+      "ingredients": {
+        "Milk": 3
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "blue-cheese",
+      "name": "Blue Cheese",
+      "cookingSeconds": 10800,
+      "experience": 6000,
+      "building": "Deli",
+      "ingredients": {
+        "Cheese": 2,
+        "Blueberry": 10
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "honey-cheddar",
+      "name": "Honey Cheddar",
+      "cookingSeconds": 43200,
+      "experience": 15000,
+      "building": "Deli",
+      "ingredients": {
+        "Cheese": 3,
+        "Honey": 5
+      },
+      "table": "DELI_COOKABLES"
+    },
+    {
+      "id": "purple-smoothie",
+      "name": "Purple Smoothie",
+      "cookingSeconds": 1800,
+      "experience": 310,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Blueberry": 5,
+        "Cabbage": 10
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "cookingSeconds": 2700,
+      "experience": 375,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Orange": 5
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "apple-juice",
+      "name": "Apple Juice",
+      "cookingSeconds": 3600,
+      "experience": 500,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Apple": 5
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "power-smoothie",
+      "name": "Power Smoothie",
+      "cookingSeconds": 5400,
+      "experience": 775,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Blueberry": 10,
+        "Kale": 5
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "bumpkin-detox",
+      "name": "Bumpkin Detox",
+      "cookingSeconds": 7200,
+      "experience": 975,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Apple": 5,
+        "Orange": 5,
+        "Carrot": 10
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "banana-blast",
+      "name": "Banana Blast",
+      "cookingSeconds": 10800,
+      "experience": 1200,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Banana": 10,
+        "Egg": 10
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "grape-juice",
+      "name": "Grape Juice",
+      "cookingSeconds": 10800,
+      "experience": 3300,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Grape": 5,
+        "Radish": 20
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "the-lot",
+      "name": "The Lot",
+      "cookingSeconds": 12600,
+      "experience": 1500,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Blueberry": 1,
+        "Orange": 1,
+        "Grape": 1,
+        "Apple": 1,
+        "Banana": 1
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "carrot-juice",
+      "name": "Carrot Juice",
+      "cookingSeconds": 3600,
+      "experience": 200,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Carrot": 30
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "quick-juice",
+      "name": "Quick Juice",
+      "cookingSeconds": 1800,
+      "experience": 100,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Sunflower": 50,
+        "Pumpkin": 40
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "slow-juice",
+      "name": "Slow Juice",
+      "cookingSeconds": 86400,
+      "experience": 7500,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Grape": 10,
+        "Kale": 100
+      },
+      "table": "JUICE_COOKABLES"
+    },
+    {
+      "id": "sour-shake",
+      "name": "Sour Shake",
+      "cookingSeconds": 3600,
+      "experience": 1000,
+      "building": "Smoothie Shack",
+      "ingredients": {
+        "Lemon": 20
+      },
+      "table": "JUICE_COOKABLES"
+    }
+  ]
+}

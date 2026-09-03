@@ -1,0 +1,341 @@
+{
+  "source": "expansions.ts (layouts index)",
+  "generatedAt": "2026-09-03T06:53:49.988Z",
+  "notes": {
+    "en": [
+      "Expansion costs are computed dynamically in game expansion libs (not a single static price table in expansions.ts).",
+      "This page lists detected land layout exports so you can see how many expansion stages exist per island theme."
+    ],
+    "fr": [
+      "Les coûts d’expansion sont calculés dynamiquement dans les libs d’expansion (pas une table de prix unique dans expansions.ts).",
+      "Cette page liste les layouts détectés pour voir combien d’étapes existent par thème d’île."
+    ]
+  },
+  "items": [
+    {
+      "id": "land-4-layout",
+      "key": "LAND_4_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "land-5-layout",
+      "key": "LAND_5_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "land-6-layout",
+      "key": "LAND_6_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "land-7-layout",
+      "key": "LAND_7_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "land-8-layout",
+      "key": "LAND_8_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "land-9-layout",
+      "key": "LAND_9_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-5-layout",
+      "key": "SPRING_LAND_5_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-6-layout",
+      "key": "SPRING_LAND_6_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-7-layout",
+      "key": "SPRING_LAND_7_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-8-layout",
+      "key": "SPRING_LAND_8_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-9-layout",
+      "key": "SPRING_LAND_9_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-10-layout",
+      "key": "SPRING_LAND_10_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-11-layout",
+      "key": "SPRING_LAND_11_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-12-layout",
+      "key": "SPRING_LAND_12_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-13-layout",
+      "key": "SPRING_LAND_13_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-14-layout",
+      "key": "SPRING_LAND_14_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-15-layout",
+      "key": "SPRING_LAND_15_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "spring-land-16-layout",
+      "key": "SPRING_LAND_16_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-5-layout",
+      "key": "DESERT_LAND_5_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-6-layout",
+      "key": "DESERT_LAND_6_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-7-layout",
+      "key": "DESERT_LAND_7_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-8-layout",
+      "key": "DESERT_LAND_8_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-9-layout",
+      "key": "DESERT_LAND_9_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-10-layout",
+      "key": "DESERT_LAND_10_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-11-layout",
+      "key": "DESERT_LAND_11_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-12-layout",
+      "key": "DESERT_LAND_12_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-13-layout",
+      "key": "DESERT_LAND_13_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-14-layout",
+      "key": "DESERT_LAND_14_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-15-layout",
+      "key": "DESERT_LAND_15_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-16-layout",
+      "key": "DESERT_LAND_16_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-17-layout",
+      "key": "DESERT_LAND_17_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-18-layout",
+      "key": "DESERT_LAND_18_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-19-layout",
+      "key": "DESERT_LAND_19_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-20-layout",
+      "key": "DESERT_LAND_20_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-21-layout",
+      "key": "DESERT_LAND_21_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-22-layout",
+      "key": "DESERT_LAND_22_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-23-layout",
+      "key": "DESERT_LAND_23_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-24-layout",
+      "key": "DESERT_LAND_24_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "desert-land-25-layout",
+      "key": "DESERT_LAND_25_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-6-layout",
+      "key": "VOLCANO_LAND_6_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-7-layout",
+      "key": "VOLCANO_LAND_7_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-8-layout",
+      "key": "VOLCANO_LAND_8_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-9-layout",
+      "key": "VOLCANO_LAND_9_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-10-layout",
+      "key": "VOLCANO_LAND_10_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-11-layout",
+      "key": "VOLCANO_LAND_11_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-12-layout",
+      "key": "VOLCANO_LAND_12_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-13-layout",
+      "key": "VOLCANO_LAND_13_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-14-layout",
+      "key": "VOLCANO_LAND_14_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-15-layout",
+      "key": "VOLCANO_LAND_15_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-16-layout",
+      "key": "VOLCANO_LAND_16_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-17-layout",
+      "key": "VOLCANO_LAND_17_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-18-layout",
+      "key": "VOLCANO_LAND_18_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-19-layout",
+      "key": "VOLCANO_LAND_19_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-20-layout",
+      "key": "VOLCANO_LAND_20_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-21-layout",
+      "key": "VOLCANO_LAND_21_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-22-layout",
+      "key": "VOLCANO_LAND_22_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-23-layout",
+      "key": "VOLCANO_LAND_23_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-24-layout",
+      "key": "VOLCANO_LAND_24_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-25-layout",
+      "key": "VOLCANO_LAND_25_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-26-layout",
+      "key": "VOLCANO_LAND_26_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-27-layout",
+      "key": "VOLCANO_LAND_27_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-28-layout",
+      "key": "VOLCANO_LAND_28_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-29-layout",
+      "key": "VOLCANO_LAND_29_LAYOUT",
+      "resources": {}
+    },
+    {
+      "id": "volcano-land-30-layout",
+      "key": "VOLCANO_LAND_30_LAYOUT",
+      "resources": {}
+    }
+  ],
+  "layoutGroups": [
+    "SPRING_LAYOUTS",
+    "DESERT_LAYOUTS",
+    "VOLCANO_LAYOUTS"
+  ]
+}

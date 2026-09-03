@@ -1,0 +1,445 @@
+{
+  "source": "craftables.ts (MARKET_ITEMS, BARN_ITEMS, BLACKSMITH_ITEMS, QUEST_ITEMS, SALESMAN_ITEMS, WAR_TENT_ITEMS, WAR_BANNERS, TOOLS, SHOVELS)",
+  "generatedAt": "2026-09-03T06:53:49.979Z",
+  "items": [
+    {
+      "id": "nancy",
+      "name": "Nancy",
+      "ingredients": {},
+      "table": "MARKET_ITEMS"
+    },
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "ingredients": {},
+      "table": "MARKET_ITEMS"
+    },
+    {
+      "id": "kuebiko",
+      "name": "Kuebiko",
+      "ingredients": {},
+      "table": "MARKET_ITEMS"
+    },
+    {
+      "id": "golden-cauliflower",
+      "name": "Golden Cauliflower",
+      "ingredients": {},
+      "table": "MARKET_ITEMS"
+    },
+    {
+      "id": "mysterious-parsnip",
+      "name": "Mysterious Parsnip",
+      "ingredients": {},
+      "table": "MARKET_ITEMS"
+    },
+    {
+      "id": "carrot-sword",
+      "name": "Carrot Sword",
+      "ingredients": {},
+      "table": "MARKET_ITEMS"
+    },
+    {
+      "id": "chicken-coop",
+      "name": "Chicken Coop",
+      "ingredients": {},
+      "table": "BARN_ITEMS"
+    },
+    {
+      "id": "farm-cat",
+      "name": "Farm Cat",
+      "ingredients": {},
+      "table": "BARN_ITEMS"
+    },
+    {
+      "id": "farm-dog",
+      "name": "Farm Dog",
+      "ingredients": {},
+      "table": "BARN_ITEMS"
+    },
+    {
+      "id": "gold-egg",
+      "name": "Gold Egg",
+      "ingredients": {},
+      "table": "BARN_ITEMS"
+    },
+    {
+      "id": "easter-bunny",
+      "name": "Easter Bunny",
+      "ingredients": {},
+      "table": "BARN_ITEMS"
+    },
+    {
+      "id": "rooster",
+      "name": "Rooster",
+      "ingredients": {},
+      "table": "BARN_ITEMS"
+    },
+    {
+      "id": "sunflower-statue",
+      "name": "Sunflower Statue",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "potato-statue",
+      "name": "Potato Statue",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "christmas-tree",
+      "name": "Christmas Tree",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "homeless-tent",
+      "name": "Homeless Tent",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "sunflower-tombstone",
+      "name": "Sunflower Tombstone",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "sunflower-rock",
+      "name": "Sunflower Rock",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "goblin-crown",
+      "name": "Goblin Crown",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "fountain",
+      "name": "Fountain",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "nyon-statue",
+      "name": "Nyon Statue",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "farmer-bath",
+      "name": "Farmer Bath",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "woody-the-beaver",
+      "name": "Woody the Beaver",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "apprentice-beaver",
+      "name": "Apprentice Beaver",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "foreman-beaver",
+      "name": "Foreman Beaver",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "egg-basket",
+      "name": "Egg Basket",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "mysterious-head",
+      "name": "Mysterious Head",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "tunnel-mole",
+      "name": "Tunnel Mole",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "rocky-the-mole",
+      "name": "Rocky the Mole",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "nugget",
+      "name": "Nugget",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "rock-golem",
+      "name": "Rock Golem",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "chef-apron",
+      "name": "Chef Apron",
+      "ingredients": {},
+      "table": "BLACKSMITH_ITEMS"
+    },
+    {
+      "id": "goblin-key",
+      "name": "Goblin Key",
+      "ingredients": {},
+      "table": "QUEST_ITEMS"
+    },
+    {
+      "id": "sunflower-key",
+      "name": "Sunflower Key",
+      "ingredients": {},
+      "table": "QUEST_ITEMS"
+    },
+    {
+      "id": "ancient-goblin-sword",
+      "name": "Ancient Goblin Sword",
+      "ingredients": {},
+      "table": "QUEST_ITEMS"
+    },
+    {
+      "id": "ancient-human-warhammer",
+      "name": "Ancient Human Warhammer",
+      "ingredients": {},
+      "table": "QUEST_ITEMS"
+    },
+    {
+      "id": "wicker-man",
+      "name": "Wicker Man",
+      "ingredients": {},
+      "table": "SALESMAN_ITEMS"
+    },
+    {
+      "id": "golden-bonsai",
+      "name": "Golden Bonsai",
+      "ingredients": {},
+      "table": "SALESMAN_ITEMS"
+    },
+    {
+      "id": "victoria-sisters",
+      "name": "Victoria Sisters",
+      "ingredients": {},
+      "table": "SALESMAN_ITEMS"
+    },
+    {
+      "id": "christmas-bear",
+      "name": "Christmas Bear",
+      "ingredients": {},
+      "table": "SALESMAN_ITEMS"
+    },
+    {
+      "id": "sunflower-amulet",
+      "name": "Sunflower Amulet",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "carrot-amulet",
+      "name": "Carrot Amulet",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "beetroot-amulet",
+      "name": "Beetroot Amulet",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "green-amulet",
+      "name": "Green Amulet",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "warrior-shirt",
+      "name": "Warrior Shirt",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "warrior-pants",
+      "name": "Warrior Pants",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "warrior-helmet",
+      "name": "Warrior Helmet",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "sunflower-shield",
+      "name": "Sunflower Shield",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "skull-hat",
+      "name": "Skull Hat",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "war-skull",
+      "name": "War Skull",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "war-tombstone",
+      "name": "War Tombstone",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "undead-rooster",
+      "name": "Undead Rooster",
+      "ingredients": {},
+      "table": "WAR_TENT_ITEMS"
+    },
+    {
+      "id": "goblin-war-banner",
+      "name": "Goblin War Banner",
+      "ingredients": {},
+      "table": "WAR_BANNERS"
+    },
+    {
+      "id": "human-war-banner",
+      "name": "Human War Banner",
+      "ingredients": {},
+      "table": "WAR_BANNERS"
+    },
+    {
+      "id": "axe",
+      "name": "Axe",
+      "coins": 320,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "pickaxe",
+      "name": "Pickaxe",
+      "coins": 320,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "stone-pickaxe",
+      "name": "Stone Pickaxe",
+      "coins": 640,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "iron-pickaxe",
+      "name": "Iron Pickaxe",
+      "coins": 1600,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "gold-pickaxe",
+      "name": "Gold Pickaxe",
+      "coins": 2240,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "oil-drill",
+      "name": "Oil Drill",
+      "coins": 2240,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "hammer",
+      "name": "Hammer",
+      "coins": 1600,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "rod",
+      "name": "Rod",
+      "coins": 1600,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "crab-pot",
+      "name": "Crab Pot",
+      "coins": 250,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "mariner-pot",
+      "name": "Mariner Pot",
+      "coins": 500,
+      "ingredients": {},
+      "table": "TOOLS"
+    },
+    {
+      "id": "rusty-shovel",
+      "name": "Rusty Shovel",
+      "ingredients": {},
+      "table": "SHOVELS"
+    },
+    {
+      "id": "shovel",
+      "name": "Shovel",
+      "coins": 0,
+      "ingredients": {},
+      "table": "SHOVELS"
+    }
+  ],
+  "namedCollectibles": [
+    "Wicker Man",
+    "Golden Bonsai",
+    "Barkley",
+    "Meowchi",
+    "Twizzle",
+    "Burro",
+    "Mudhorn",
+    "Nibbles",
+    "Waddles",
+    "Ramsey",
+    "Biscuit",
+    "Cloudy",
+    "Butters",
+    "Smokey",
+    "Flicker",
+    "Pippin",
+    "Pinto",
+    "Roan",
+    "Stallion",
+    "Bison",
+    "Oxen",
+    "Peanuts",
+    "Pip",
+    "Skipper"
+  ]
+}

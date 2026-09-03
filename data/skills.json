@@ -1,0 +1,400 @@
+{
+  "source": "bumpkinSkills.ts (BUMPKIN_REVAMP_SKILL_TREE)",
+  "generatedAt": "2026-09-03T06:53:49.987Z",
+  "trees": [
+    "Crops",
+    "Fruit Patch",
+    "Machinery",
+    "Compost",
+    "Aging"
+  ],
+  "items": [
+    {
+      "id": "green-thumb",
+      "name": "Green Thumb",
+      "tree": "Crops",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "young-farmer",
+      "name": "Young Farmer",
+      "tree": "Crops",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "experienced-farmer",
+      "name": "Experienced Farmer",
+      "tree": "Crops",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "old-farmer",
+      "name": "Old Farmer",
+      "tree": "Crops",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "chonky-scarecrow",
+      "name": "Chonky Scarecrow",
+      "tree": "Crops",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "bettys-friend",
+      "name": "Betty's Friend",
+      "tree": "Crops",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "strong-roots",
+      "name": "Strong Roots",
+      "tree": "Crops",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "coin-swindler",
+      "name": "Coin Swindler",
+      "tree": "Crops",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "golden-sunflower",
+      "name": "Golden Sunflower",
+      "tree": "Crops",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "horror-mike",
+      "name": "Horror Mike",
+      "tree": "Crops",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "lauries-gains",
+      "name": "Laurie's Gains",
+      "tree": "Crops",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "instant-growth",
+      "name": "Instant Growth",
+      "tree": "Crops",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "acre-farm",
+      "name": "Acre Farm",
+      "tree": "Crops",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "hectare-farm",
+      "name": "Hectare Farm",
+      "tree": "Crops",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "fruitful-fumble",
+      "name": "Fruitful Fumble",
+      "tree": "Fruit Patch",
+      "tier": 1,
+      "points": 1,
+      "island": "spring",
+      "disabled": false
+    },
+    {
+      "id": "fruity-heaven",
+      "name": "Fruity Heaven",
+      "tree": "Fruit Patch",
+      "tier": 1,
+      "points": 1,
+      "island": "spring",
+      "disabled": false
+    },
+    {
+      "id": "fruity-profit",
+      "name": "Fruity Profit",
+      "tree": "Fruit Patch",
+      "tier": 1,
+      "points": 1,
+      "island": "spring",
+      "disabled": false
+    },
+    {
+      "id": "loyal-macaw",
+      "name": "Loyal Macaw",
+      "tree": "Fruit Patch",
+      "tier": 1,
+      "points": 1,
+      "island": "spring",
+      "disabled": false
+    },
+    {
+      "id": "field-expansion-module",
+      "name": "Field Expansion Module",
+      "tree": "Machinery",
+      "tier": 3,
+      "points": 3,
+      "island": "desert",
+      "disabled": false
+    },
+    {
+      "id": "field-extension-module",
+      "name": "Field Extension Module",
+      "tree": "Machinery",
+      "tier": 3,
+      "points": 3,
+      "island": "desert",
+      "disabled": false
+    },
+    {
+      "id": "efficiency-extension-module",
+      "name": "Efficiency Extension Module",
+      "tree": "Machinery",
+      "tier": 3,
+      "points": 3,
+      "island": "desert",
+      "disabled": false
+    },
+    {
+      "id": "grease-lightning",
+      "name": "Grease Lightning",
+      "tree": "Machinery",
+      "tier": 3,
+      "points": 3,
+      "island": "desert",
+      "disabled": false
+    },
+    {
+      "id": "efficient-bin",
+      "name": "Efficient Bin",
+      "tree": "Compost",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "turbo-charged",
+      "name": "Turbo Charged",
+      "tree": "Compost",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "wormy-treat",
+      "name": "Wormy Treat",
+      "tree": "Compost",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "feathery-business",
+      "name": "Feathery Business",
+      "tree": "Compost",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "sprout-surge",
+      "name": "Sprout Surge",
+      "tree": "Compost",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "blend-tastic",
+      "name": "Blend-tastic",
+      "tree": "Compost",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "premium-worms",
+      "name": "Premium Worms",
+      "tree": "Compost",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "fruitful-bounty",
+      "name": "Fruitful Bounty",
+      "tree": "Compost",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "root-rocket",
+      "name": "Root Rocket",
+      "tree": "Compost",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "composting-overhaul",
+      "name": "Composting Overhaul",
+      "tree": "Compost",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "composting-revamp",
+      "name": "Composting Revamp",
+      "tree": "Compost",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "cheap-rakes",
+      "name": "Cheap Rakes",
+      "tree": "Aging",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "speedy-aging",
+      "name": "Speedy Aging",
+      "tree": "Aging",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "salty-seas",
+      "name": "Salty Seas",
+      "tree": "Aging",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "wide-rakes",
+      "name": "Wide Rakes",
+      "tree": "Aging",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "bacalhau",
+      "name": "Bacalhau",
+      "tree": "Aging",
+      "tier": 1,
+      "points": 1,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "fish-smoking",
+      "name": "Fish Smoking",
+      "tree": "Aging",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "refiner",
+      "name": "Refiner",
+      "tree": "Aging",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "sea-blessed",
+      "name": "Sea Blessed",
+      "tree": "Aging",
+      "tier": 2,
+      "points": 2,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "ager",
+      "name": "Ager",
+      "tree": "Aging",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    },
+    {
+      "id": "salt-surge",
+      "name": "Salt Surge",
+      "tree": "Aging",
+      "tier": 3,
+      "points": 3,
+      "island": "basic",
+      "disabled": false
+    }
+  ]
+}
