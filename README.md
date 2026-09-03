@@ -10,35 +10,39 @@ This is an **unofficial fan project**. It does not redistribute game code, media
 
 ## Live site
 
-GitHub Pages only hosts the static VitePress site. **Sync / extract / generate stay local** — nothing on GitHub pulls the game repo or refreshes data automatically.
+GitHub only hosts the **static HTML** (branch `gh-pages`). All sync, extract, generate, and build run **locally** — there is no GitHub Actions automation.
 
 - English: `/en/`
 - Français: `/fr/`
 
-## Local workflow (source of truth)
+Site URL (after first publish): https://avaloon.github.io/sunflowerland-wiki/
+
+## Local workflow
 
 ```bash
 npm install
 npm run check-updates   # optional: see if game main moved
 npm run pipeline        # sync reference → extract → generate markdown
-npm run dev             # preview locally
+npm run dev             # preview while editing
+npm run publish:pages   # build + force-push static site to gh-pages
 ```
 
-Then commit and push the updated `data/` + `docs/` so Pages rebuilds.
+Commit and push `main` when you want to save source/scripts/data. Use `publish:pages` when you want the public site updated.
 
 ### Scripts
 
 | Script | Purpose |
 |--------|---------|
-| `npm run sync` | Sparse-checkout the game repo into `reference/sunflower-land` (local only) |
+| `npm run sync` | Sparse-checkout the game repo (local only) |
 | `npm run extract` | Parse game types → `data/*.json` |
-| `npm run generate` | Build markdown under `docs/en` and `docs/fr` |
+| `npm run generate` | Markdown under `docs/en` and `docs/fr` |
 | `npm run check-updates` | Compare pinned SHA vs upstream `main` |
-| `npm run build` | Production static site (also used by Pages CI) |
+| `npm run build` | Production static site |
+| `npm run publish:pages` | Build locally and push to `gh-pages` |
 
 ## Reference version
 
-The pinned game commit is stored in [`reference/version.json`](reference/version.json). The sparse checkout under `reference/sunflower-land/` is gitignored and never published.
+The pinned game commit is in [`reference/version.json`](reference/version.json). The sparse checkout under `reference/sunflower-land/` is gitignored and never published.
 
 ## Licence / disclaimer
 
