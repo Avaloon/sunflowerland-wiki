@@ -5,13 +5,15 @@ description: Carrot crop data
 
 # Carrot
 
+![Carrot](/icons/carrot.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Printemps, Automne |
 | Prix de vente | 0.8 |
 | Temps de récolte | 1 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

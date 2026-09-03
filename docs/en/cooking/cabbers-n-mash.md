@@ -4,9 +4,11 @@ title: Cabbers n Mash
 
 # Cabbers n Mash
 
+<img class="item-icon" src="https://sfl.world/img/source/Cabbers%20n%20Mash.png" alt="Cabbers n Mash" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Fire Pit |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 250 |
 | Cook time | 40 min |
 

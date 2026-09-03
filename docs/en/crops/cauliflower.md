@@ -5,13 +5,15 @@ description: Cauliflower crop data
 
 # Cauliflower
 
+![Cauliflower](/icons/cauliflower.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Summer, Winter |
 | Sell price | 4.25 |
 | Harvest time | 8 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

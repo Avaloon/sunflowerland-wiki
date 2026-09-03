@@ -5,13 +5,15 @@ description: Parsnip crop data
 
 # Parsnip
 
+![Parsnip](/icons/parsnip.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Winter |
 | Sell price | 6.5 |
 | Harvest time | 12 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

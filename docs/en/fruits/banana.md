@@ -4,11 +4,13 @@ title: Banana
 
 # Banana
 
+![Banana](/icons/banana.png)
+
 | | |
 |---|---|
 | Sell price | 25 |
+| Seasons | Summer, Autumn |
 | Bush | Yes |
-| Kind | patch-fruit |
 | Seed | Banana Plant |
 | Seed price | 70 |
 | Grow time | 12 h |

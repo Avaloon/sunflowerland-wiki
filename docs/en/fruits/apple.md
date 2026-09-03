@@ -4,11 +4,13 @@ title: Apple
 
 # Apple
 
+![Apple](/icons/apple.png)
+
 | | |
 |---|---|
 | Sell price | 25 |
+| Seasons | Autumn, Winter |
 | Bush | No |
-| Kind | patch-fruit |
 | Seed | Apple Seed |
 | Seed price | 70 |
 | Grow time | 12 h |

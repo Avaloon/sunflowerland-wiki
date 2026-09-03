@@ -4,8 +4,11 @@ title: Deli
 
 # Deli
 
+<img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="48" height="48" />
+
 | | |
 |---|---|
+| Ascension requise | 0 |
 | Niveau requis | 16 |
 | Coins | 300 |
 | Construction | 12 h |

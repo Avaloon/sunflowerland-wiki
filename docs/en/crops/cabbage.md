@@ -5,13 +5,15 @@ description: Cabbage crop data
 
 # Cabbage
 
+![Cabbage](/icons/cabbage.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Spring, Winter |
 | Sell price | 1.5 |
 | Harvest time | 2 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

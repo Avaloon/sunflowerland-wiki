@@ -5,13 +5,15 @@ description: Cabbage crop data
 
 # Cabbage
 
+![Cabbage](/icons/cabbage.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Printemps, Hiver |
 | Prix de vente | 1.5 |
 | Temps de récolte | 2 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

@@ -4,9 +4,11 @@ title: Bumpkin Salad
 
 # Bumpkin Salad
 
+<img class="item-icon" src="https://sfl.world/img/source/Bumpkin%20Salad.png" alt="Bumpkin Salad" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 290 |
 | Cook time | 3.5 h |
 

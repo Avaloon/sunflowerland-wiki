@@ -5,13 +5,15 @@ description: Turnip crop data
 
 # Turnip
 
+![Turnip](/icons/turnip.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Hiver |
 | Prix de vente | 8 |
 | Temps de récolte | 24 h |
 | Overnight | Oui |
-| Type | crop |
 
 ## Graine
 

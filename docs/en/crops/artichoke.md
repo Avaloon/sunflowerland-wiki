@@ -5,13 +5,15 @@ description: Artichoke crop data
 
 # Artichoke
 
+![Artichoke](/icons/artichoke.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Autumn |
 | Sell price | 12 |
 | Harvest time | 36 h |
 | Overnight | Yes |
-| Kind | crop |
 
 ## Seed
 

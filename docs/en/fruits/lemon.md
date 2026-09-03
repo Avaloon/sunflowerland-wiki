@@ -4,11 +4,13 @@ title: Lemon
 
 # Lemon
 
+![Lemon](/icons/lemon.webp)
+
 | | |
 |---|---|
 | Sell price | 6 |
+| Seasons | Summer, Winter |
 | Bush | No |
-| Kind | patch-fruit |
 | Seed | Lemon Seed |
 | Seed price | 15 |
 | Grow time | 4 h |

@@ -5,13 +5,15 @@ description: Kale crop data
 
 # Kale
 
+![Kale](/icons/kale.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Printemps, Hiver |
 | Prix de vente | 10 |
 | Temps de récolte | 36 h |
 | Overnight | Oui |
-| Type | crop |
 
 ## Graine
 

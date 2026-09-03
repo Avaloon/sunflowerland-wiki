@@ -4,8 +4,11 @@ title: Crop Machine
 
 # Crop Machine
 
+<img class="item-icon" src="https://sfl.world/img/source/Crop%20Machine.png" alt="Crop Machine" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 35 |
 | Coins | 8000 |
 | Build time | 2 h |

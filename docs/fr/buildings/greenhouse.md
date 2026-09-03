@@ -4,8 +4,11 @@ title: Greenhouse
 
 # Greenhouse
 
+<img class="item-icon" src="https://sfl.world/img/source/Greenhouse.png" alt="Greenhouse" width="48" height="48" />
+
 | | |
 |---|---|
+| Ascension requise | 0 |
 | Niveau requis | 46 |
 | Coins | 4800 |
 | Construction | 4 h |

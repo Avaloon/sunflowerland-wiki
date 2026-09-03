@@ -4,9 +4,11 @@ title: Blue Cheese
 
 # Blue Cheese
 
+<img class="item-icon" src="https://sfl.world/img/source/Blue%20Cheese.png" alt="Blue Cheese" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Deli |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="24" height="24" /> Deli |
 | XP | 6000 |
 | Cook time | 3 h |
 

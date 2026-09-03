@@ -4,9 +4,11 @@ title: Reindeer Carrot
 
 # Reindeer Carrot
 
+<img class="item-icon" src="https://sfl.world/img/source/Reindeer%20Carrot.png" alt="Reindeer Carrot" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Fire Pit |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 36 |
 | Temps de cuisson | 5 min |
 

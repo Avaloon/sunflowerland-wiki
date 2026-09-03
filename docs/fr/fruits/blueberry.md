@@ -4,11 +4,13 @@ title: Blueberry
 
 # Blueberry
 
+![Blueberry](/icons/blueberry.png)
+
 | | |
 |---|---|
 | Prix de vente | 12 |
+| Saisons | Printemps, Hiver |
 | Buisson | Oui |
-| Type | patch-fruit |
 | Graine | Blueberry Seed |
 | Prix graine | 30 |
 | Temps | 6 h |

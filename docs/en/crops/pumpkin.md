@@ -5,13 +5,15 @@ description: Pumpkin crop data
 
 # Pumpkin
 
+![Pumpkin](/icons/pumpkin.png)
+
 | | |
 |---|---|
 | Category | Basic |
+| Seasons | Autumn |
 | Sell price | 0.4 |
 | Harvest time | 30 min |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

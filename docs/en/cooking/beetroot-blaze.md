@@ -4,9 +4,11 @@ title: Beetroot Blaze
 
 # Beetroot Blaze
 
+<img class="item-icon" src="https://sfl.world/img/source/Beetroot%20Blaze.png" alt="Beetroot Blaze" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 2000 |
 | Cook time | 30s |
 

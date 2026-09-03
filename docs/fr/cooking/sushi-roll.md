@@ -4,9 +4,11 @@ title: Sushi Roll
 
 # Sushi Roll
 
+<img class="item-icon" src="https://sfl.world/img/source/Sushi%20Roll.png" alt="Sushi Roll" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 2000 |
 | Temps de cuisson | 1 h |
 

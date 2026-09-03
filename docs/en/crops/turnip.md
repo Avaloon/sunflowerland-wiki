@@ -5,13 +5,15 @@ description: Turnip crop data
 
 # Turnip
 
+![Turnip](/icons/turnip.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Winter |
 | Sell price | 8 |
 | Harvest time | 24 h |
 | Overnight | Yes |
-| Kind | crop |
 
 ## Seed
 

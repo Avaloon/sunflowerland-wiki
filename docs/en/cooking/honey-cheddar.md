@@ -4,9 +4,11 @@ title: Honey Cheddar
 
 # Honey Cheddar
 
+<img class="item-icon" src="https://sfl.world/img/source/Honey%20Cheddar.png" alt="Honey Cheddar" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Deli |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="24" height="24" /> Deli |
 | XP | 15000 |
 | Cook time | 12 h |
 

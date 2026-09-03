@@ -4,8 +4,11 @@ title: Barn
 
 # Barn
 
+<img class="item-icon" src="https://sfl.world/img/source/Barn.png" alt="Barn" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 30 |
 | Coins | 200 |
 | Build time | 2 h |

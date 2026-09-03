@@ -4,8 +4,11 @@ title: Crafting Box
 
 # Crafting Box
 
+<img class="item-icon" src="https://sfl.world/img/source/Crafting%20Box.png" alt="Crafting Box" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 6 |
 | Coins | 0 |
 | Build time | 1 h |

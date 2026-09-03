@@ -5,13 +5,15 @@ description: Pepper crop data
 
 # Pepper
 
+![Pepper](/icons/pepper.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Summer |
 | Sell price | 3 |
 | Harvest time | 4 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

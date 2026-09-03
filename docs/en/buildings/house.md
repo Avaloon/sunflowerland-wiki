@@ -4,8 +4,11 @@ title: House
 
 # House
 
+<img class="item-icon" src="https://sfl.world/img/source/House.png" alt="House" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | — |
 | Coins | 0 |
 | Build time | 30s |

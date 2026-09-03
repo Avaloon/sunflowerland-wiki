@@ -1,6 +1,6 @@
 {
-  "source": "calendar.ts + community season design",
-  "generatedAt": "2026-09-03T06:53:49.948Z",
+  "source": "seeds.ts SEASONAL_SEEDS + calendar.ts",
+  "generatedAt": "2026-09-03T07:24:37.310Z",
   "seasons": [
     {
       "id": "spring",
@@ -35,6 +35,162 @@
       "emoji": "❄️"
     }
   ],
+  "plantSeasons": {
+    "Sunflower": [
+      "spring",
+      "summer"
+    ],
+    "Rhubarb": [
+      "spring"
+    ],
+    "Carrot": [
+      "spring",
+      "autumn"
+    ],
+    "Cabbage": [
+      "spring",
+      "winter"
+    ],
+    "Soybean": [
+      "spring",
+      "autumn"
+    ],
+    "Corn": [
+      "spring"
+    ],
+    "Wheat": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Kale": [
+      "spring",
+      "winter"
+    ],
+    "Barley": [
+      "spring",
+      "autumn"
+    ],
+    "Tomato": [
+      "spring",
+      "autumn"
+    ],
+    "Blueberry": [
+      "spring",
+      "winter"
+    ],
+    "Orange": [
+      "spring",
+      "summer"
+    ],
+    "Sunpetal": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Bloom": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Lily": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Lavender": [
+      "spring"
+    ],
+    "Rice": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Olive": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Grape": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Potato": [
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "Zucchini": [
+      "summer"
+    ],
+    "Pepper": [
+      "summer"
+    ],
+    "Beetroot": [
+      "summer",
+      "winter"
+    ],
+    "Cauliflower": [
+      "summer",
+      "winter"
+    ],
+    "Eggplant": [
+      "summer"
+    ],
+    "Radish": [
+      "summer"
+    ],
+    "Lemon": [
+      "summer",
+      "winter"
+    ],
+    "Banana": [
+      "summer",
+      "autumn"
+    ],
+    "Gladiolus": [
+      "summer"
+    ],
+    "Pumpkin": [
+      "autumn"
+    ],
+    "Yam": [
+      "autumn"
+    ],
+    "Broccoli": [
+      "autumn"
+    ],
+    "Artichoke": [
+      "autumn"
+    ],
+    "Apple": [
+      "autumn",
+      "winter"
+    ],
+    "Clover": [
+      "autumn"
+    ],
+    "Parsnip": [
+      "winter"
+    ],
+    "Onion": [
+      "winter"
+    ],
+    "Turnip": [
+      "winter"
+    ],
+    "Edelweiss": [
+      "winter"
+    ]
+  },
   "notes": {
     "en": [
       "Crop and fruit availability rotates by season. Off-season seeds generally cannot be planted on normal plots.",

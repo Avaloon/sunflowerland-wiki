@@ -7,6 +7,11 @@
   "syncedAt": "2026-09-03T06:50:23.881Z",
   "sparsePaths": [
     "src/features/game/types",
-    "src/lib/i18n/dictionaries"
+    "src/lib/i18n/dictionaries",
+    "src/assets/crops",
+    "src/assets/fruit",
+    "src/assets/greenhouse",
+    "src/assets/resources",
+    "src/assets/icons"
   ]
 }

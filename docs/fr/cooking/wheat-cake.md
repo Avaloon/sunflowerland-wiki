@@ -4,9 +4,11 @@ title: Wheat Cake
 
 # Wheat Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Wheat%20Cake.png" alt="Wheat Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Bakery |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 1100 |
 | Temps de cuisson | 24 h |
 

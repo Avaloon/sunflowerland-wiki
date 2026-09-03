@@ -14,6 +14,7 @@ import {
   readNamedProp,
   readBoolProp,
   readStringProp,
+  readStringArrayProp,
   readRecordNumberMap,
   readNestedLevel,
   readNestedNumberMap,
@@ -187,6 +188,12 @@ export function extractFruits() {
   return data;
 }
 
+function seedNameToPlant(seedName: string): string {
+  if (seedName.endsWith(" Seed")) return seedName.slice(0, -5);
+  if (seedName.endsWith(" Plant")) return seedName.slice(0, -6);
+  return seedName;
+}
+
 export function extractSeasons() {
   // calendar.ts is event-heavy; provide a structured wiki summary keyed off known crop seasons discussion + code markers
   let calendarNotes: string[] = [];
@@ -198,8 +205,25 @@ export function extractSeasons() {
     calendarNotes = [];
   }
 
+  const plantSeasons: Record<string, string[]> = {};
+  try {
+    const seedsSrc = readText(typeFile("seeds.ts"));
+    const lit = extractConstObject(seedsSrc, "SEASONAL_SEEDS");
+    if (lit) {
+      for (const season of ["spring", "summer", "autumn", "winter"]) {
+        for (const seedName of readStringArrayProp(lit, season) ?? []) {
+          const plant = seedNameToPlant(seedName);
+          if (!plantSeasons[plant]) plantSeasons[plant] = [];
+          if (!plantSeasons[plant].includes(season)) plantSeasons[plant].push(season);
+        }
+      }
+    }
+  } catch {
+    // seeds.ts missing until sync
+  }
+
   const data = {
-    source: "calendar.ts + community season design",
+    source: "seeds.ts SEASONAL_SEEDS + calendar.ts",
     generatedAt: new Date().toISOString(),
     seasons: [
       { id: "spring", name: { en: "Spring", fr: "Printemps" }, emoji: "🌸" },
@@ -207,6 +231,7 @@ export function extractSeasons() {
       { id: "autumn", name: { en: "Autumn", fr: "Automne" }, emoji: "🍂" },
       { id: "winter", name: { en: "Winter", fr: "Hiver" }, emoji: "❄️" },
     ],
+    plantSeasons,
     notes: {
       en: [
         "Crop and fruit availability rotates by season. Off-season seeds generally cannot be planted on normal plots.",

@@ -5,13 +5,15 @@ description: Parsnip crop data
 
 # Parsnip
 
+![Parsnip](/icons/parsnip.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Hiver |
 | Prix de vente | 6.5 |
 | Temps de récolte | 12 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

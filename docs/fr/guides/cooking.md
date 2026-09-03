@@ -8,15 +8,15 @@ title: Guide cuisine & XP
 
 ## Bâtiments
 
-| Bâtiment | Rôle |
-|---|---|
-| Fire Pit | Recettes de début |
-| Kitchen | Large set (poisson / serre) |
-| Bakery | Gâteaux — beaucoup d’XP |
-| Deli | Ferments longs, fromage |
-| Smoothie Shack | Jus / blends de fruits |
+| Bâtiment | Rôle | Déblocage | Coût |
+|---|---|---|---|
+| Fire Pit | Recettes de début | Asc. 0 | Wood ×3, Stone ×2 |
+| Kitchen | Large set (poisson / serre) | Asc. 0 · niv. 5 | 10 coins · Wood ×30, Stone ×5 |
+| Bakery | Gâteaux — beaucoup d’XP | Asc. 0 · niv. 8 | 200 coins · Wood ×50, Stone ×20, Gold ×5 |
+| Deli | Ferments longs, fromage | Asc. 0 · niv. 16 | 300 coins · Wood ×50, Stone ×50, Gold ×10 |
+| Smoothie Shack | Jus / blends de fruits | Asc. 0 · niv. 23 | Wood ×25, Stone ×25, Iron ×10 |
 
-Coûts : [Bâtiments](/fr/buildings/) · recettes : [Cuisine](/fr/cooking/).
+Détail : [Bâtiments](/fr/buildings/) · recettes : [Cuisine](/fr/cooking/).
 
 ## Déroulement
 

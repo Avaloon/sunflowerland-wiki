@@ -9,7 +9,7 @@ Crops are the backbone of a farm: sell for coins, feed animals, cook food, and s
 ## Plots and seeds
 
 1. Buy seeds from the market (or craft/obtain event seeds).
-2. Plant on a **Crop Plot** (greenhouse crops need the **Greenhouse**).
+2. Plant on a **Crop Plot**. Rice, olive and grape: see [Greenhouse](/en/greenhouse/).
 3. Wait for `harvestSeconds` / `plantSeconds` from the game data, then harvest.
 
 Seed price, bumpkin level gate, and sell price for each crop are listed under [Crops](/en/crops/).
@@ -21,7 +21,7 @@ The game code groups crops by grow time:
 - **Basic** — up to Pumpkin-speed crops (fast turnover, low sell price)
 - **Medium** — between basic and eggplant-speed
 - **Advanced** — Eggplant and slower (includes animal-feed staples like Corn, Wheat, Barley)
-- **Greenhouse** — Rice, Olive (and related greenhouse produce)
+- **Greenhouse** — Rice, Olive and Grape live on the [Greenhouse](/en/greenhouse/) page (not on crop plots)
 
 **Overnight** crops take a day or more and reward planning around sleep / offline time.
 

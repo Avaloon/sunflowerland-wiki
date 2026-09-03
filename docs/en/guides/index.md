@@ -11,6 +11,7 @@ Mechanics explainers for Sunflower Land. Stats live on the item pages; these gui
 - [Crops & planting](/en/guides/crops)
 - [Seasons & weather](/en/guides/seasons)
 - [Fruits](/en/guides/fruits)
+- [Greenhouse](/en/greenhouse/)
 
 ## Production
 

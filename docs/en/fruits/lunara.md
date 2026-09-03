@@ -4,11 +4,13 @@ title: Lunara
 
 # Lunara
 
+![Lunara](/icons/lunara.webp)
+
 | | |
 |---|---|
 | Sell price | 500 |
+| Seasons | Full moon |
 | Bush | Yes |
-| Kind | patch-fruit |
 | Seed | Lunara Seed |
 | Seed price | 750 |
 | Grow time | 12 h |

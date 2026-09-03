@@ -4,8 +4,11 @@ title: Kitchen
 
 # Kitchen
 
+<img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 5 |
 | Coins | 10 |
 | Build time | 30 min |

@@ -4,9 +4,11 @@ title: Fish Burger
 
 # Fish Burger
 
+<img class="item-icon" src="https://sfl.world/img/source/Fish%20Burger.png" alt="Fish Burger" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 1300 |
 | Cook time | 2 h |
 

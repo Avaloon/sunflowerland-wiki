@@ -4,9 +4,11 @@ title: Tofu Scramble
 
 # Tofu Scramble
 
+<img class="item-icon" src="https://sfl.world/img/source/Tofu%20Scramble.png" alt="Tofu Scramble" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 1000 |
 | Cook time | 3 h |
 

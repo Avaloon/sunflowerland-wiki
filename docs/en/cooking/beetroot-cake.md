@@ -4,9 +4,11 @@ title: Beetroot Cake
 
 # Beetroot Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Beetroot%20Cake.png" alt="Beetroot Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Bakery |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 1250 |
 | Cook time | 22 h |
 

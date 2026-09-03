@@ -4,9 +4,11 @@ title: Kale Omelette
 
 # Kale Omelette
 
+<img class="item-icon" src="https://sfl.world/img/source/Kale%20Omelette.png" alt="Kale Omelette" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Fire Pit |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 1250 |
 | Cook time | 3.5 h |
 

@@ -5,13 +5,15 @@ description: Carrot crop data
 
 # Carrot
 
+![Carrot](/icons/carrot.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Spring, Autumn |
 | Sell price | 0.8 |
 | Harvest time | 1 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

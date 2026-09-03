@@ -4,9 +4,11 @@ title: Antipasto
 
 # Antipasto
 
+<img class="item-icon" src="https://sfl.world/img/source/Antipasto.png" alt="Antipasto" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Fire Pit |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 3000 |
 | Temps de cuisson | 3 h |
 

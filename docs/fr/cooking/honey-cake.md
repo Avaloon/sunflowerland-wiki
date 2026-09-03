@@ -4,9 +4,11 @@ title: Honey Cake
 
 # Honey Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Honey%20Cake.png" alt="Honey Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Bakery |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 4000 |
 | Temps de cuisson | 8 h |
 

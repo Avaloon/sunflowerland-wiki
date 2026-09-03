@@ -5,13 +5,15 @@ description: Eggplant crop data
 
 # Eggplant
 
+![Eggplant](/icons/eggplant.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Summer |
 | Sell price | 8 |
 | Harvest time | 16 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

@@ -4,11 +4,13 @@ title: Tomato
 
 # Tomato
 
+![Tomato](/icons/tomato.webp)
+
 | | |
 |---|---|
 | Prix de vente | 2 |
+| Saisons | Printemps, Automne |
 | Buisson | Oui |
-| Type | patch-fruit |
 | Graine | Tomato Seed |
 | Prix graine | 5 |
 | Temps | 2 h |

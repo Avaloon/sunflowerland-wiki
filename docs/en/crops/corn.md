@@ -5,13 +5,15 @@ description: Corn crop data
 
 # Corn
 
+![Corn](/icons/corn.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Spring |
 | Sell price | 9 |
 | Harvest time | 20 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

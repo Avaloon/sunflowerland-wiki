@@ -5,13 +5,15 @@ description: Barley crop data
 
 # Barley
 
+![Barley](/icons/barley.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Printemps, Automne |
 | Prix de vente | 12 |
 | Temps de récolte | 48 h |
 | Overnight | Oui |
-| Type | crop |
 
 ## Graine
 

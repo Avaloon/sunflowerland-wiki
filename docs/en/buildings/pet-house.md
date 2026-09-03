@@ -4,8 +4,11 @@ title: Pet House
 
 # Pet House
 
+<img class="item-icon" src="https://sfl.world/img/source/Pet%20House.png" alt="Pet House" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 0 |
 | Coins | 5000 |
 | Build time | 2 h |

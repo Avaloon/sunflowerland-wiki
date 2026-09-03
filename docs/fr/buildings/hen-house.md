@@ -4,8 +4,11 @@ title: Hen House
 
 # Hen House
 
+<img class="item-icon" src="https://sfl.world/img/source/Hen%20House.png" alt="Hen House" width="48" height="48" />
+
 | | |
 |---|---|
+| Ascension requise | 0 |
 | Niveau requis | 6 |
 | Coins | 100 |
 | Construction | 2 h |

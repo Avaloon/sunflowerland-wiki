@@ -4,11 +4,13 @@ title: Lunara
 
 # Lunara
 
+![Lunara](/icons/lunara.webp)
+
 | | |
 |---|---|
 | Prix de vente | 500 |
+| Saisons | Pleine lune |
 | Buisson | Oui |
-| Type | patch-fruit |
 | Graine | Lunara Seed |
 | Prix graine | 750 |
 | Temps | 12 h |

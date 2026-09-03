@@ -5,13 +5,15 @@ description: Radish crop data
 
 # Radish
 
+![Radish](/icons/radish.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Été |
 | Prix de vente | 9.5 |
 | Temps de récolte | 24 h |
 | Overnight | Oui |
-| Type | crop |
 
 ## Graine
 

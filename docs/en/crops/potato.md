@@ -5,13 +5,15 @@ description: Potato crop data
 
 # Potato
 
+![Potato](/icons/potato.png)
+
 | | |
 |---|---|
 | Category | Basic |
+| Seasons | Summer, Autumn, Winter |
 | Sell price | 0.14 |
 | Harvest time | 5 min |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

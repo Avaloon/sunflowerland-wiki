@@ -4,20 +4,13 @@ title: Fruits
 
 # Fruits
 
-Fruits de patch et de serre.
+Fruits de patch (le raisin est sur la page [Serre](/fr/greenhouse/)). **Prix graine** = coût au marché.
 
-| Fruit | Type | Vente | Temps | Graine | Buisson |
-| --- | --- | --- | --- | --- | --- |
-| [Tomato](/fr/fruits/tomato) | Patch | 2 | 2 h | 5 | Oui |
-| [Lemon](/fr/fruits/lemon) | Patch | 6 | 4 h | 15 | Non |
-| [Blueberry](/fr/fruits/blueberry) | Patch | 12 | 6 h | 30 | Oui |
-| [Orange](/fr/fruits/orange) | Patch | 18 | 8 h | 50 | Non |
-| [Apple](/fr/fruits/apple) | Patch | 25 | 12 h | 70 | Non |
-| [Banana](/fr/fruits/banana) | Patch | 25 | 12 h | 70 | Oui |
-| [Celestine](/fr/fruits/celestine) | Patch | 200 | 6 h | 300 | Oui |
-| [Lunara](/fr/fruits/lunara) | Patch | 500 | 12 h | 750 | Oui |
-| [Duskberry](/fr/fruits/duskberry) | Patch | 1000 | 24 h | 1250 | Oui |
-| [Grape](/fr/fruits/grape) | Serre | 240 | 12 h | 160 | Non |
+<script setup>
+const rows = [{"id":"tomato","name":"Tomato","href":"/fr/fruits/tomato","icon":"/icons/tomato.webp","seasons":["spring","autumn"],"sell":"2","time":"2 h","seedPrice":"5","extra":"Oui"},{"id":"lemon","name":"Lemon","href":"/fr/fruits/lemon","icon":"/icons/lemon.webp","seasons":["summer","winter"],"sell":"6","time":"4 h","seedPrice":"15","extra":"Non"},{"id":"blueberry","name":"Blueberry","href":"/fr/fruits/blueberry","icon":"/icons/blueberry.png","seasons":["spring","winter"],"sell":"12","time":"6 h","seedPrice":"30","extra":"Oui"},{"id":"orange","name":"Orange","href":"/fr/fruits/orange","icon":"/icons/orange.png","seasons":["spring","summer"],"sell":"18","time":"8 h","seedPrice":"50","extra":"Non"},{"id":"apple","name":"Apple","href":"/fr/fruits/apple","icon":"/icons/apple.png","seasons":["autumn","winter"],"sell":"25","time":"12 h","seedPrice":"70","extra":"Non"},{"id":"banana","name":"Banana","href":"/fr/fruits/banana","icon":"/icons/banana.png","seasons":["summer","autumn"],"sell":"25","time":"12 h","seedPrice":"70","extra":"Oui"},{"id":"celestine","name":"Celestine","href":"/fr/fruits/celestine","icon":"/icons/celestine.webp","seasons":["full-moon"],"sell":"200","time":"6 h","seedPrice":"300","extra":"Oui"},{"id":"lunara","name":"Lunara","href":"/fr/fruits/lunara","icon":"/icons/lunara.webp","seasons":["full-moon"],"sell":"500","time":"12 h","seedPrice":"750","extra":"Oui"},{"id":"duskberry","name":"Duskberry","href":"/fr/fruits/duskberry","icon":"/icons/duskberry.webp","seasons":["full-moon"],"sell":"1000","time":"24 h","seedPrice":"1250","extra":"Oui"}];
+</script>
+
+<ProduceTable locale="fr" kind="fruits" :rows="rows" />
 
 ---
 

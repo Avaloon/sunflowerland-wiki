@@ -4,9 +4,11 @@ title: Orange Cake
 
 # Orange Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Orange%20Cake.png" alt="Orange Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Bakery |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 730 |
 | Cook time | 4 h |
 

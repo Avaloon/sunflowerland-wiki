@@ -1,6 +1,6 @@
 {
   "source": "expansions.ts (layouts index)",
-  "generatedAt": "2026-09-03T06:53:49.988Z",
+  "generatedAt": "2026-09-03T07:24:37.343Z",
   "notes": {
     "en": [
       "Expansion costs are computed dynamically in game expansion libs (not a single static price table in expansions.ts).",

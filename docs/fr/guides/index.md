@@ -11,6 +11,7 @@ Guides de mécaniques pour Sunflower Land. Les stats sont sur les pages d’obje
 - [Cultures & plantation](/fr/guides/crops)
 - [Saisons & météo](/fr/guides/seasons)
 - [Fruits](/fr/guides/fruits)
+- [Serre](/fr/greenhouse/)
 
 ## Production
 

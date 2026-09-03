@@ -4,8 +4,11 @@ title: Fish Market
 
 # Fish Market
 
+<img class="item-icon" src="https://sfl.world/img/source/Fish%20Market.png" alt="Fish Market" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 10 |
 | Coins | 0 |
 | Build time | 1 h |

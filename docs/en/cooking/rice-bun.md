@@ -4,9 +4,11 @@ title: Rice Bun
 
 # Rice Bun
 
+<img class="item-icon" src="https://sfl.world/img/source/Rice%20Bun.png" alt="Rice Bun" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Fire Pit |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 2600 |
 | Cook time | 5 h |
 

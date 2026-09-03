@@ -166,6 +166,45 @@ export function readNamedProp(body: string, prop: string): string | undefined {
   return m?.[1];
 }
 
+/** Parse `prop: [ "a", "b", // comment \n "c" ]` from an object literal. */
+export function readStringArrayProp(objectLiteral: string, prop: string): string[] | undefined {
+  const re = new RegExp(`${prop}\\s*:\\s*\\[`);
+  const m = re.exec(objectLiteral);
+  if (!m) return undefined;
+  const start = m.index + m[0].length - 1;
+  let depth = 0;
+  let inString: string | null = null;
+  let escaped = false;
+  for (let i = start; i < objectLiteral.length; i++) {
+    const ch = objectLiteral[i];
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+      if (ch === "\\") {
+        escaped = true;
+        continue;
+      }
+      if (ch === inString) inString = null;
+      continue;
+    }
+    if (ch === '"' || ch === "'") {
+      inString = ch;
+      continue;
+    }
+    if (ch === "[") depth++;
+    else if (ch === "]") {
+      depth--;
+      if (depth === 0) {
+        const inner = objectLiteral.slice(start + 1, i);
+        return [...inner.matchAll(/"([^"]+)"/g)].map((x) => x[1]);
+      }
+    }
+  }
+  return undefined;
+}
+
 export function readBoolProp(body: string, prop: string): boolean | undefined {
   const re = new RegExp(`${prop}\\s*:\\s*(true|false)`);
   const m = re.exec(body);

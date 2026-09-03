@@ -4,9 +4,11 @@ title: Sauerkraut
 
 # Sauerkraut
 
+<img class="item-icon" src="https://sfl.world/img/source/Sauerkraut.png" alt="Sauerkraut" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Deli |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="24" height="24" /> Deli |
 | XP | 500 |
 | Temps de cuisson | 24 h |
 

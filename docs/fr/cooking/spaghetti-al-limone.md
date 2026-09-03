@@ -4,9 +4,11 @@ title: Spaghetti al Limone
 
 # Spaghetti al Limone
 
+<img class="item-icon" src="https://sfl.world/img/source/Spaghetti%20al%20Limone.png" alt="Spaghetti al Limone" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 15000 |
 | Temps de cuisson | 15 h |
 

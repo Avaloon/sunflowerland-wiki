@@ -12,10 +12,10 @@ This is an **unofficial fan project**. It does not redistribute game code, media
 
 GitHub only hosts the **static HTML** (branch `gh-pages`). All sync, extract, generate, and build run **locally** — there is no GitHub Actions automation.
 
+- Default (Français): `/fr/`
 - English: `/en/`
-- Français: `/fr/`
 
-Site URL (after first publish): https://avaloon.github.io/sunflowerland-wiki/
+Site URL (after first publish): https://avaloon.github.io/sunflowerland-wiki/fr/
 
 ## Local workflow
 

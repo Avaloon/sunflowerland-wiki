@@ -5,13 +5,15 @@ description: Yam crop data
 
 # Yam
 
+![Yam](/icons/yam.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Autumn |
 | Sell price | 0.8 |
 | Harvest time | 1 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

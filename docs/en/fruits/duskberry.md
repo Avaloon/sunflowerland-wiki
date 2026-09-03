@@ -4,11 +4,13 @@ title: Duskberry
 
 # Duskberry
 
+![Duskberry](/icons/duskberry.webp)
+
 | | |
 |---|---|
 | Sell price | 1000 |
+| Seasons | Full moon |
 | Bush | Yes |
-| Kind | patch-fruit |
 | Seed | Duskberry Seed |
 | Seed price | 1250 |
 | Grow time | 24 h |

@@ -4,8 +4,11 @@ title: Market
 
 # Market
 
+<img class="item-icon" src="https://sfl.world/img/source/Market.png" alt="Market" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | — |
 | Coins | 0 |
 | Build time | 30s |

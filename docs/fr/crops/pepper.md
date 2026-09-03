@@ -5,13 +5,15 @@ description: Pepper crop data
 
 # Pepper
 
+![Pepper](/icons/pepper.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Été |
 | Prix de vente | 3 |
 | Temps de récolte | 4 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

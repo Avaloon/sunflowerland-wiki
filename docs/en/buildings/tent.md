@@ -4,8 +4,11 @@ title: Tent
 
 # Tent
 
+<img class="item-icon" src="https://sfl.world/img/source/Tent.png" alt="Tent" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | — |
 | Coins | 20 |
 | Build time | 1 h |

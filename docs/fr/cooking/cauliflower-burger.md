@@ -4,9 +4,11 @@ title: Cauliflower Burger
 
 # Cauliflower Burger
 
+<img class="item-icon" src="https://sfl.world/img/source/Cauliflower%20Burger.png" alt="Cauliflower Burger" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 255 |
 | Temps de cuisson | 3 h |
 

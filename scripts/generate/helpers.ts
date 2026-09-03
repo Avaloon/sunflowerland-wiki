@@ -31,6 +31,41 @@ export function clearGenerated(locale: Locale, subdir: string): void {
   }
 }
 
+export type UnlockLevel = { ascension?: number; level?: number };
+
+export function formatAscension(unlock?: UnlockLevel): string {
+  return unlock?.ascension != null && Number.isFinite(unlock.ascension)
+    ? String(unlock.ascension)
+    : "—";
+}
+
+/** `Infinity` in game code means no level gate (already omitted from JSON). */
+export function formatLevel(unlock?: UnlockLevel): string {
+  return unlock?.level != null && Number.isFinite(unlock.level) ? String(unlock.level) : "—";
+}
+
+export function formatIngredientsInline(
+  ingredients: Record<string, number> | undefined,
+  empty = "—",
+): string {
+  const entries = Object.entries(ingredients ?? {});
+  if (!entries.length) return empty;
+  return entries.map(([k, v]) => `${k} ×${v}`).join(", ");
+}
+
+export function formatBuildCost(
+  coins: number,
+  ingredients: Record<string, number> | undefined,
+  locale: Locale,
+): string {
+  const parts: string[] = [];
+  if (coins) parts.push(`${formatCoins(coins)} coins`);
+  const ing = formatIngredientsInline(ingredients, "");
+  if (ing) parts.push(ing);
+  if (parts.length) return parts.join(" · ");
+  return locale === "fr" ? "Gratuit" : "Free";
+}
+
 export function ingredientsTable(ingredients: Record<string, number> | undefined, locale: Locale): string {
   const entries = Object.entries(ingredients ?? {});
   if (!entries.length) return locale === "fr" ? "_Aucun_" : "_None_";

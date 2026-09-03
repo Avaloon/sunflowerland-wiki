@@ -5,13 +5,15 @@ description: Eggplant crop data
 
 # Eggplant
 
+![Eggplant](/icons/eggplant.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Été |
 | Prix de vente | 8 |
 | Temps de récolte | 16 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

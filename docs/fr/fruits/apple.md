@@ -4,11 +4,13 @@ title: Apple
 
 # Apple
 
+![Apple](/icons/apple.png)
+
 | | |
 |---|---|
 | Prix de vente | 25 |
+| Saisons | Automne, Hiver |
 | Buisson | Non |
-| Type | patch-fruit |
 | Graine | Apple Seed |
 | Prix graine | 70 |
 | Temps | 12 h |

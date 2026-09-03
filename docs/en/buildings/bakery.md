@@ -4,8 +4,11 @@ title: Bakery
 
 # Bakery
 
+<img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 8 |
 | Coins | 200 |
 | Build time | 4 h |

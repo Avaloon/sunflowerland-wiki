@@ -5,13 +5,15 @@ description: Rhubarb crop data
 
 # Rhubarb
 
+![Rhubarb](/icons/rhubarb.png)
+
 | | |
 |---|---|
 | Category | Basic |
+| Seasons | Spring |
 | Sell price | 0.24 |
 | Harvest time | 10 min |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

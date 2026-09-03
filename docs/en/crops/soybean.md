@@ -5,13 +5,15 @@ description: Soybean crop data
 
 # Soybean
 
+![Soybean](/icons/soybean.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Spring, Autumn |
 | Sell price | 2.3 |
 | Harvest time | 3 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

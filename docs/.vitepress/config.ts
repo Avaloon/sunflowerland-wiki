@@ -20,10 +20,10 @@ export default defineConfig({
         nav: [
           { text: "Home", link: "/en/" },
           { text: "Crops", link: "/en/crops/" },
+          { text: "Greenhouse", link: "/en/greenhouse/" },
           { text: "Cooking", link: "/en/cooking/" },
           { text: "Animals", link: "/en/animals/" },
           { text: "Guides", link: "/en/guides/" },
-          { text: "About", link: "/en/about" },
         ],
         sidebar: {
           "/en/": [
@@ -32,7 +32,6 @@ export default defineConfig({
               items: [
                 { text: "Home", link: "/en/" },
                 { text: "Guides", link: "/en/guides/" },
-                { text: "About & sources", link: "/en/about" },
               ],
             },
             {
@@ -40,6 +39,7 @@ export default defineConfig({
               items: [
                 { text: "Crops", link: "/en/crops/" },
                 { text: "Fruits", link: "/en/fruits/" },
+                { text: "Greenhouse", link: "/en/greenhouse/" },
                 { text: "Seasons", link: "/en/seasons/" },
               ],
             },
@@ -88,10 +88,10 @@ export default defineConfig({
         nav: [
           { text: "Accueil", link: "/fr/" },
           { text: "Cultures", link: "/fr/crops/" },
+          { text: "Serre", link: "/fr/greenhouse/" },
           { text: "Cuisine", link: "/fr/cooking/" },
           { text: "Animaux", link: "/fr/animals/" },
           { text: "Guides", link: "/fr/guides/" },
-          { text: "À propos", link: "/fr/about" },
         ],
         sidebar: {
           "/fr/": [
@@ -100,7 +100,6 @@ export default defineConfig({
               items: [
                 { text: "Accueil", link: "/fr/" },
                 { text: "Guides", link: "/fr/guides/" },
-                { text: "À propos & sources", link: "/fr/about" },
               ],
             },
             {
@@ -108,6 +107,7 @@ export default defineConfig({
               items: [
                 { text: "Cultures", link: "/fr/crops/" },
                 { text: "Fruits", link: "/fr/fruits/" },
+                { text: "Serre", link: "/fr/greenhouse/" },
                 { text: "Saisons", link: "/fr/seasons/" },
               ],
             },

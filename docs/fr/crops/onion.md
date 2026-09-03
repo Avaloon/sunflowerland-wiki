@@ -5,13 +5,15 @@ description: Onion crop data
 
 # Onion
 
+![Onion](/icons/onion.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Hiver |
 | Prix de vente | 10 |
 | Temps de récolte | 20 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

@@ -4,9 +4,11 @@ title: Goblin Brunch
 
 # Goblin Brunch
 
+<img class="item-icon" src="https://sfl.world/img/source/Goblin%20Brunch.png" alt="Goblin Brunch" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 2500 |
 | Temps de cuisson | 12 h |
 

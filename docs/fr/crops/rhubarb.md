@@ -5,13 +5,15 @@ description: Rhubarb crop data
 
 # Rhubarb
 
+![Rhubarb](/icons/rhubarb.png)
+
 | | |
 |---|---|
 | Catégorie | Basique |
+| Saisons | Printemps |
 | Prix de vente | 0.24 |
 | Temps de récolte | 10 min |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

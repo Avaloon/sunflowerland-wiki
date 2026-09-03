@@ -4,9 +4,11 @@ title: Roast Veggies
 
 # Roast Veggies
 
+<img class="item-icon" src="https://sfl.world/img/source/Roast%20Veggies.png" alt="Roast Veggies" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 170 |
 | Cook time | 2 h |
 

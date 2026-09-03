@@ -5,13 +5,15 @@ description: Pumpkin crop data
 
 # Pumpkin
 
+![Pumpkin](/icons/pumpkin.png)
+
 | | |
 |---|---|
 | Catégorie | Basique |
+| Saisons | Automne |
 | Prix de vente | 0.4 |
 | Temps de récolte | 30 min |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

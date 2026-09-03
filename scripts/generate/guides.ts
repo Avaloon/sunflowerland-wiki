@@ -26,6 +26,7 @@ Mechanics explainers for Sunflower Land. Stats live on the item pages; these gui
 - [Crops & planting](/en/guides/crops)
 - [Seasons & weather](/en/guides/seasons)
 - [Fruits](/en/guides/fruits)
+- [Greenhouse](/en/greenhouse/)
 
 ## Production
 
@@ -58,7 +59,7 @@ Crops are the backbone of a farm: sell for coins, feed animals, cook food, and s
 ## Plots and seeds
 
 1. Buy seeds from the market (or craft/obtain event seeds).
-2. Plant on a **Crop Plot** (greenhouse crops need the **Greenhouse**).
+2. Plant on a **Crop Plot**. Rice, olive and grape: see [Greenhouse](/en/greenhouse/).
 3. Wait for \`harvestSeconds\` / \`plantSeconds\` from the game data, then harvest.
 
 Seed price, bumpkin level gate, and sell price for each crop are listed under [Crops](/en/crops/).
@@ -70,7 +71,7 @@ The game code groups crops by grow time:
 - **Basic** — up to Pumpkin-speed crops (fast turnover, low sell price)
 - **Medium** — between basic and eggplant-speed
 - **Advanced** — Eggplant and slower (includes animal-feed staples like Corn, Wheat, Barley)
-- **Greenhouse** — Rice, Olive (and related greenhouse produce)
+- **Greenhouse** — Rice, Olive and Grape live on the [Greenhouse](/en/greenhouse/) page (not on crop plots)
 
 **Overnight** crops take a day or more and reward planning around sleep / offline time.
 
@@ -140,7 +141,7 @@ title: Fruits guide
 
 # Fruits
 
-Fruit patches unlock later than basic crops and need higher Bumpkin levels. Some fruits are bushes; greenhouse grapes need the Greenhouse building.
+Fruit patches unlock later than basic crops and need higher Bumpkin levels. Some fruits are bushes. Grapes are grown in the [Greenhouse](/en/greenhouse/), not on fruit patches.
 
 ## Why grow fruit?
 
@@ -167,15 +168,15 @@ title: Cooking & XP guide
 
 Progress through cooking buildings as you level:
 
-| Building | Role |
-|---|---|
-| Fire Pit | Early recipes |
-| Kitchen | Broad recipe set (incl. fish / greenhouse) |
-| Bakery | Cakes — high XP, heavy ingredients |
-| Deli | Long ferments, cheese, advanced foods |
-| Smoothie Shack | Juice / fruit blends |
+| Building | Role | Unlock | Cost |
+|---|---|---|---|
+| Fire Pit | Early recipes | Asc. 0 | Wood ×3, Stone ×2 |
+| Kitchen | Broad recipe set (incl. fish / greenhouse) | Asc. 0 · lvl 5 | 10 coins · Wood ×30, Stone ×5 |
+| Bakery | Cakes — high XP, heavy ingredients | Asc. 0 · lvl 8 | 200 coins · Wood ×50, Stone ×20, Gold ×5 |
+| Deli | Long ferments, cheese, advanced foods | Asc. 0 · lvl 16 | 300 coins · Wood ×50, Stone ×50, Gold ×10 |
+| Smoothie Shack | Juice / fruit blends | Asc. 0 · lvl 23 | Wood ×25, Stone ×25, Iron ×10 |
 
-Costs and unlock levels: [Buildings](/en/buildings/) · recipes: [Cooking](/en/cooking/).
+Details: [Buildings](/en/buildings/) · recipes: [Cooking](/en/cooking/).
 
 ## Workflow
 
@@ -323,6 +324,7 @@ Guides de mécaniques pour Sunflower Land. Les stats sont sur les pages d’obje
 - [Cultures & plantation](/fr/guides/crops)
 - [Saisons & météo](/fr/guides/seasons)
 - [Fruits](/fr/guides/fruits)
+- [Serre](/fr/greenhouse/)
 
 ## Production
 
@@ -355,7 +357,7 @@ Les cultures sont le cœur de la ferme : coins, nourriture animale, cuisine, sto
 ## Parcelles et graines
 
 1. Achetez des graines au marché (ou via événements).
-2. Plantez sur une **Crop Plot** (les cultures de serre demandent la **Greenhouse**).
+2. Plantez sur une **Crop Plot**. Riz, olive et raisin : page [Serre](/fr/greenhouse/).
 3. Attendez le temps \`harvestSeconds\` / \`plantSeconds\`, puis récoltez.
 
 Prix, niveau Bumpkin et vente : [Cultures](/fr/crops/).
@@ -367,7 +369,7 @@ Le code regroupe les cultures par temps de pousse :
 - **Basique** — jusqu’au rythme Potiron (rapide, faible vente)
 - **Moyenne** — entre basique et Aubergine
 - **Avancée** — Aubergine et plus lent (dont Maïs, Blé, Orge pour les animaux)
-- **Serre** — Riz, Olive, etc.
+- **Serre** — Riz, olive et raisin sont sur la page [Serre](/fr/greenhouse/) (pas sur les parcelles)
 
 Les cultures **overnight** prennent un jour ou plus.
 
@@ -432,7 +434,7 @@ title: Guide des fruits
 
 # Fruits
 
-Les fruit patches se débloquent plus tard et demandent un niveau Bumpkin plus élevé. Certains fruits sont des buissons ; le raisin demande la serre.
+Les fruit patches se débloquent plus tard et demandent un niveau Bumpkin plus élevé. Certains fruits sont des buissons. Le raisin se cultive dans la [Serre](/fr/greenhouse/), pas sur les patches.
 
 ## Pourquoi en cultiver ?
 
@@ -457,15 +459,15 @@ title: Guide cuisine & XP
 
 ## Bâtiments
 
-| Bâtiment | Rôle |
-|---|---|
-| Fire Pit | Recettes de début |
-| Kitchen | Large set (poisson / serre) |
-| Bakery | Gâteaux — beaucoup d’XP |
-| Deli | Ferments longs, fromage |
-| Smoothie Shack | Jus / blends de fruits |
+| Bâtiment | Rôle | Déblocage | Coût |
+|---|---|---|---|
+| Fire Pit | Recettes de début | Asc. 0 | Wood ×3, Stone ×2 |
+| Kitchen | Large set (poisson / serre) | Asc. 0 · niv. 5 | 10 coins · Wood ×30, Stone ×5 |
+| Bakery | Gâteaux — beaucoup d’XP | Asc. 0 · niv. 8 | 200 coins · Wood ×50, Stone ×20, Gold ×5 |
+| Deli | Ferments longs, fromage | Asc. 0 · niv. 16 | 300 coins · Wood ×50, Stone ×50, Gold ×10 |
+| Smoothie Shack | Jus / blends de fruits | Asc. 0 · niv. 23 | Wood ×25, Stone ×25, Iron ×10 |
 
-Coûts : [Bâtiments](/fr/buildings/) · recettes : [Cuisine](/fr/cooking/).
+Détail : [Bâtiments](/fr/buildings/) · recettes : [Cuisine](/fr/cooking/).
 
 ## Déroulement
 
@@ -598,89 +600,10 @@ Cuisine, animaux, compost, serre, crop machine… [Bâtiments](/fr/buildings/).
   }
 }
 
-export function generateAbout(meta: Meta) {
-  for (const locale of ["en", "fr"] as Locale[]) {
-    if (locale === "en") {
-      writePage(
-        "en",
-        "about.md",
-        `---
-title: About & sources
----
-
-# About & sources
-
-This is an **unofficial fan wiki** for [Sunflower Land](https://sunflower-land.com/).
-
-## Data source
-
-- Repository: [${meta.repo ?? "sunflower-land/sunflower-land"}](https://github.com/sunflower-land/sunflower-land)
-- Pinned commit: \`${meta.shortSha ?? "n/a"}\`${meta.date ? ` (${meta.date})` : ""}
-- Primary paths: \`src/features/game/types/\`
-
-Regenerate after game updates:
-
-\`\`\`bash
-npm run check-updates
-npm run pipeline
-\`\`\`
-
-## What we do not copy
-
-- Game source code (upstream is **No Licence** — do not reuse)
-- SunnySide tiles, music, or other media assets
-
-## Official links
-
-- [Play](https://sunflower-land.com/play)
-- [Docs](https://docs.sunflower-land.com/)
-- [Discord](https://discord.com/invite/sunflowerland)
-`,
-      );
-    } else {
-      writePage(
-        "fr",
-        "about.md",
-        `---
-title: À propos & sources
----
-
-# À propos & sources
-
-Ceci est un **wiki fan non officiel** pour [Sunflower Land](https://sunflower-land.com/).
-
-## Source des données
-
-- Dépôt : [${meta.repo ?? "sunflower-land/sunflower-land"}](https://github.com/sunflower-land/sunflower-land)
-- Commit épinglé : \`${meta.shortSha ?? "n/a"}\`${meta.date ? ` (${meta.date})` : ""}
-- Chemins principaux : \`src/features/game/types/\`
-
-Après une mise à jour du jeu :
-
-\`\`\`bash
-npm run check-updates
-npm run pipeline
-\`\`\`
-
-## Ce que nous ne copions pas
-
-- Le code source du jeu (**No Licence** en amont — ne pas réutiliser)
-- Les assets SunnySide, musiques et médias
-
-## Liens officiels
-
-- [Jouer](https://sunflower-land.com/play)
-- [Docs](https://docs.sunflower-land.com/)
-- [Discord](https://discord.com/invite/sunflowerland)
-`,
-      );
-    }
-  }
-}
-
 export function refreshHomes(meta: Meta) {
-  const crops = readData<{ items: unknown[] }>("crops.json");
+  const crops = readData<{ items: Array<{ kind?: string }> }>("crops.json");
   const foods = readData<{ items: unknown[] }>("consumables.json");
+  const cropCount = crops.items.filter((c) => c.kind === "crop").length;
   writePage(
     "en",
     "index.md",
@@ -693,14 +616,14 @@ description: Unofficial Sunflower Land wiki (English)
 
 Welcome to this **unofficial fan wiki**. Stats are generated from the public [sunflower-land](https://github.com/sunflower-land/sunflower-land) repository (\`${meta.shortSha ?? "…"}\`), with bilingual mechanics guides.
 
-**Snapshot:** ${crops.items.length} crops · ${foods.items.length} recipes · pin \`${meta.shortSha ?? "n/a"}\`
+**Snapshot:** ${cropCount} crops · ${foods.items.length} recipes · pin \`${meta.shortSha ?? "n/a"}\`
 
 ## Browse
 
-- [Crops](/en/crops/) · [Fruits](/en/fruits/) · [Seasons](/en/seasons/)
+- [Crops](/en/crops/) · [Fruits](/en/fruits/) · [Greenhouse](/en/greenhouse/) · [Seasons](/en/seasons/)
 - [Cooking](/en/cooking/) · [Animals](/en/animals/) · [Buildings](/en/buildings/)
 - [Fishing](/en/fishing/) · [Flowers](/en/flowers/) · [Skills](/en/skills/)
-- [Guides](/en/guides/) · [About](/en/about)
+- [Guides](/en/guides/)
 
 ## Play
 
@@ -723,14 +646,14 @@ description: Wiki non officiel Sunflower Land (français)
 
 Bienvenue sur ce **wiki fan non officiel**. Les stats viennent du dépôt public [sunflower-land](https://github.com/sunflower-land/sunflower-land) (\`${meta.shortSha ?? "…"}\`), avec des guides de mécaniques bilingues.
 
-**Instantané :** ${crops.items.length} cultures · ${foods.items.length} recettes · pin \`${meta.shortSha ?? "n/a"}\`
+**Instantané :** ${cropCount} cultures · ${foods.items.length} recettes · pin \`${meta.shortSha ?? "n/a"}\`
 
 ## Parcourir
 
-- [Cultures](/fr/crops/) · [Fruits](/fr/fruits/) · [Saisons](/fr/seasons/)
+- [Cultures](/fr/crops/) · [Fruits](/fr/fruits/) · [Serre](/fr/greenhouse/) · [Saisons](/fr/seasons/)
 - [Cuisine](/fr/cooking/) · [Animaux](/fr/animals/) · [Bâtiments](/fr/buildings/)
 - [Pêche](/fr/fishing/) · [Fleurs](/fr/flowers/) · [Compétences](/fr/skills/)
-- [Guides](/fr/guides/) · [À propos](/fr/about)
+- [Guides](/fr/guides/)
 
 ## Jouer
 

@@ -4,9 +4,11 @@ title: Furikake Sprinkle
 
 # Furikake Sprinkle
 
+<img class="item-icon" src="https://sfl.world/img/source/Furikake%20Sprinkle.png" alt="Furikake Sprinkle" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Fire Pit |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 1000 |
 | Cook time | 0s |
 

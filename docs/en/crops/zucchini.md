@@ -5,13 +5,15 @@ description: Zucchini crop data
 
 # Zucchini
 
+![Zucchini](/icons/zucchini.png)
+
 | | |
 |---|---|
 | Category | Basic |
+| Seasons | Summer |
 | Sell price | 0.4 |
 | Harvest time | 30 min |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

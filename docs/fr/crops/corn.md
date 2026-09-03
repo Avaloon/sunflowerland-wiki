@@ -5,13 +5,15 @@ description: Corn crop data
 
 # Corn
 
+![Corn](/icons/corn.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Printemps |
 | Prix de vente | 9 |
 | Temps de récolte | 20 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

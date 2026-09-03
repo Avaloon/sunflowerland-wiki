@@ -4,9 +4,11 @@ title: Bumpkin ganoush
 
 # Bumpkin ganoush
 
+<img class="item-icon" src="https://sfl.world/img/source/Bumpkin%20ganoush.png" alt="Bumpkin ganoush" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 1000 |
 | Temps de cuisson | 5 h |
 

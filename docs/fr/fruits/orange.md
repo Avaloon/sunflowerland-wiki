@@ -4,11 +4,13 @@ title: Orange
 
 # Orange
 
+![Orange](/icons/orange.png)
+
 | | |
 |---|---|
 | Prix de vente | 18 |
+| Saisons | Printemps, Été |
 | Buisson | Non |
-| Type | patch-fruit |
 | Graine | Orange Seed |
 | Prix graine | 50 |
 | Temps | 8 h |

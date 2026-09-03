@@ -4,9 +4,11 @@ title: Pumpkin Soup
 
 # Pumpkin Soup
 
+<img class="item-icon" src="https://sfl.world/img/source/Pumpkin%20Soup.png" alt="Pumpkin Soup" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Fire Pit |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 24 |
 | Cook time | 3 min |
 

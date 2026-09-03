@@ -4,8 +4,11 @@ title: Toolshed
 
 # Toolshed
 
+<img class="item-icon" src="https://sfl.world/img/source/Toolshed.png" alt="Toolshed" width="48" height="48" />
+
 | | |
 |---|---|
+| Ascension requise | 0 |
 | Niveau requis | 25 |
 | Coins | 0 |
 | Construction | 2 h |

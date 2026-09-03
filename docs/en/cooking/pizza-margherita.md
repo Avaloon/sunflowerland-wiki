@@ -4,9 +4,11 @@ title: Pizza Margherita
 
 # Pizza Margherita
 
+<img class="item-icon" src="https://sfl.world/img/source/Pizza%20Margherita.png" alt="Pizza Margherita" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Fire Pit |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 25000 |
 | Cook time | 20 h |
 

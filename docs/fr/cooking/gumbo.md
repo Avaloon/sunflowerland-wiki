@@ -4,9 +4,11 @@ title: Gumbo
 
 # Gumbo
 
+<img class="item-icon" src="https://sfl.world/img/source/Gumbo.png" alt="Gumbo" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Fire Pit |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 600 |
 | Temps de cuisson | 4 h |
 

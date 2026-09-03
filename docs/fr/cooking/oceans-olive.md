@@ -4,9 +4,11 @@ title: Ocean's Olive
 
 # Ocean's Olive
 
+<img class="item-icon" src="https://sfl.world/img/source/Ocean's%20Olive.png" alt="Ocean's Olive" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 2000 |
 | Temps de cuisson | 2 h |
 

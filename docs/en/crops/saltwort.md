@@ -5,13 +5,15 @@ description: Saltwort crop data
 
 # Saltwort
 
+![Saltwort](/icons/saltwort.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Event |
 | Sell price | 50 |
 | Harvest time | 12 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

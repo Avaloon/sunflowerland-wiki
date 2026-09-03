@@ -4,7 +4,7 @@ title: Fruits guide
 
 # Fruits
 
-Fruit patches unlock later than basic crops and need higher Bumpkin levels. Some fruits are bushes; greenhouse grapes need the Greenhouse building.
+Fruit patches unlock later than basic crops and need higher Bumpkin levels. Some fruits are bushes. Grapes are grown in the [Greenhouse](/en/greenhouse/), not on fruit patches.
 
 ## Why grow fruit?
 

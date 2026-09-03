@@ -4,8 +4,11 @@ title: Water Well
 
 # Water Well
 
+<img class="item-icon" src="https://sfl.world/img/source/Water%20Well.png" alt="Water Well" width="48" height="48" />
+
 | | |
 |---|---|
+| Required ascension | 0 |
 | Required level | 2 |
 | Coins | 100 |
 | Build time | 5 min |

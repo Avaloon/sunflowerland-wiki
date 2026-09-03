@@ -4,9 +4,11 @@ title: Fermented Carrots
 
 # Fermented Carrots
 
+<img class="item-icon" src="https://sfl.world/img/source/Fermented%20Carrots.png" alt="Fermented Carrots" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Deli |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="24" height="24" /> Deli |
 | XP | 250 |
 | Cook time | 24 h |
 

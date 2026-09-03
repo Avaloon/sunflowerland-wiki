@@ -4,9 +4,11 @@ title: Boiled Eggs
 
 # Boiled Eggs
 
+<img class="item-icon" src="https://sfl.world/img/source/Boiled%20Eggs.png" alt="Boiled Eggs" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Fire Pit |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 90 |
 | Temps de cuisson | 1 h |
 

@@ -4,9 +4,11 @@ title: Shroom Syrup
 
 # Shroom Syrup
 
+<img class="item-icon" src="https://sfl.world/img/source/Shroom%20Syrup.png" alt="Shroom Syrup" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Deli |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="24" height="24" /> Deli |
 | XP | 10000 |
 | Cook time | 10s |
 

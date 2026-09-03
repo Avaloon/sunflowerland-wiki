@@ -10,15 +10,15 @@ title: Cooking & XP guide
 
 Progress through cooking buildings as you level:
 
-| Building | Role |
-|---|---|
-| Fire Pit | Early recipes |
-| Kitchen | Broad recipe set (incl. fish / greenhouse) |
-| Bakery | Cakes — high XP, heavy ingredients |
-| Deli | Long ferments, cheese, advanced foods |
-| Smoothie Shack | Juice / fruit blends |
+| Building | Role | Unlock | Cost |
+|---|---|---|---|
+| Fire Pit | Early recipes | Asc. 0 | Wood ×3, Stone ×2 |
+| Kitchen | Broad recipe set (incl. fish / greenhouse) | Asc. 0 · lvl 5 | 10 coins · Wood ×30, Stone ×5 |
+| Bakery | Cakes — high XP, heavy ingredients | Asc. 0 · lvl 8 | 200 coins · Wood ×50, Stone ×20, Gold ×5 |
+| Deli | Long ferments, cheese, advanced foods | Asc. 0 · lvl 16 | 300 coins · Wood ×50, Stone ×50, Gold ×10 |
+| Smoothie Shack | Juice / fruit blends | Asc. 0 · lvl 23 | Wood ×25, Stone ×25, Iron ×10 |
 
-Costs and unlock levels: [Buildings](/en/buildings/) · recipes: [Cooking](/en/cooking/).
+Details: [Buildings](/en/buildings/) · recipes: [Cooking](/en/cooking/).
 
 ## Workflow
 

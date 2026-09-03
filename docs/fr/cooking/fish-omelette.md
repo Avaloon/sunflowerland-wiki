@@ -4,9 +4,11 @@ title: Fish Omelette
 
 # Fish Omelette
 
+<img class="item-icon" src="https://sfl.world/img/source/Fish%20Omelette.png" alt="Fish Omelette" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 1500 |
 | Temps de cuisson | 5 h |
 

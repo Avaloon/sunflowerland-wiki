@@ -5,13 +5,15 @@ description: Zucchini crop data
 
 # Zucchini
 
+![Zucchini](/icons/zucchini.png)
+
 | | |
 |---|---|
 | Catégorie | Basique |
+| Saisons | Été |
 | Prix de vente | 0.4 |
 | Temps de récolte | 30 min |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

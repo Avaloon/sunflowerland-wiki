@@ -4,11 +4,13 @@ title: Blueberry
 
 # Blueberry
 
+![Blueberry](/icons/blueberry.png)
+
 | | |
 |---|---|
 | Sell price | 12 |
+| Seasons | Spring, Winter |
 | Bush | Yes |
-| Kind | patch-fruit |
 | Seed | Blueberry Seed |
 | Seed price | 30 |
 | Grow time | 6 h |

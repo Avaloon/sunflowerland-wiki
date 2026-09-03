@@ -6,105 +6,16 @@ title: Cooking
 
 In Sunflower Land, Bumpkin XP mainly comes from **eating** cooked food — not from harvesting alone.
 
-## Cooking buildings
+Buildings unlock based on Bumpkin **ascension** and **level**. Cost includes coins **and** resources (wood, stone, ores…).
 
-| Building | Level | Coins | Build time |
-| --- | --- | --- | --- |
-| [Fire Pit](/en/buildings/fire-pit) | — | 0 | 0s |
-| [Kitchen](/en/buildings/kitchen) | 5 | 10 | 30 min |
-| [Bakery](/en/buildings/bakery) | 8 | 200 | 4 h |
-| [Deli](/en/buildings/deli) | 16 | 300 | 12 h |
-| [Smoothie Shack](/en/buildings/smoothie-shack) | 23 | 0 | 12 h |
+Recipes are listed as **one table per building**.
 
-## Recipes
+<script setup>
+const buildings = [{"id":"fire-pit","name":"Fire Pit","href":"/en/buildings/fire-pit","ascension":"0","level":"—","cost":"Wood ×3, Stone ×2","buildTime":"0s"},{"id":"kitchen","name":"Kitchen","href":"/en/buildings/kitchen","ascension":"0","level":"5","cost":"10 coins · Wood ×30, Stone ×5","buildTime":"30 min"},{"id":"bakery","name":"Bakery","href":"/en/buildings/bakery","ascension":"0","level":"8","cost":"200 coins · Wood ×50, Stone ×20, Gold ×5","buildTime":"4 h"},{"id":"deli","name":"Deli","href":"/en/buildings/deli","ascension":"0","level":"16","cost":"300 coins · Wood ×50, Stone ×50, Gold ×10","buildTime":"12 h"},{"id":"smoothie-shack","name":"Smoothie Shack","href":"/en/buildings/smoothie-shack","ascension":"0","level":"23","cost":"Wood ×25, Stone ×25, Iron ×10","buildTime":"12 h"}];
+const groups = [{"building":"Fire Pit","recipes":[{"id":"mashed-potato","name":"Mashed Potato","href":"/en/cooking/mashed-potato","xp":"3","time":"30s"},{"id":"rhubarb-tart","name":"Rhubarb Tart","href":"/en/cooking/rhubarb-tart","xp":"5","time":"1 min"},{"id":"pumpkin-soup","name":"Pumpkin Soup","href":"/en/cooking/pumpkin-soup","xp":"24","time":"3 min"},{"id":"reindeer-carrot","name":"Reindeer Carrot","href":"/en/cooking/reindeer-carrot","xp":"36","time":"5 min"},{"id":"mushroom-soup","name":"Mushroom Soup","href":"/en/cooking/mushroom-soup","xp":"56","time":"10 min"},{"id":"boiled-eggs","name":"Boiled Eggs","href":"/en/cooking/boiled-eggs","xp":"90","time":"1 h"},{"id":"bumpkin-broth","name":"Bumpkin Broth","href":"/en/cooking/bumpkin-broth","xp":"96","time":"20 min"},{"id":"popcorn","name":"Popcorn","href":"/en/cooking/popcorn","xp":"200","time":"12 min"},{"id":"cabbers-n-mash","name":"Cabbers n Mash","href":"/en/cooking/cabbers-n-mash","xp":"250","time":"40 min"},{"id":"rapid-roast","name":"Rapid Roast","href":"/en/cooking/rapid-roast","xp":"300","time":"10s"},{"id":"kale-stew","name":"Kale Stew","href":"/en/cooking/kale-stew","xp":"400","time":"2 h"},{"id":"fried-tofu","name":"Fried Tofu","href":"/en/cooking/fried-tofu","xp":"400","time":"1.5 h"},{"id":"gumbo","name":"Gumbo","href":"/en/cooking/gumbo","xp":"600","time":"4 h"},{"id":"furikake-sprinkle","name":"Furikake Sprinkle","href":"/en/cooking/furikake-sprinkle","xp":"1000","time":"0s"},{"id":"kale-omelette","name":"Kale Omelette","href":"/en/cooking/kale-omelette","xp":"1250","time":"3.5 h"},{"id":"rice-bun","name":"Rice Bun","href":"/en/cooking/rice-bun","xp":"2600","time":"5 h"},{"id":"saltbite","name":"Saltbite","href":"/en/cooking/saltbite","xp":"3000","time":"4 h"},{"id":"antipasto","name":"Antipasto","href":"/en/cooking/antipasto","xp":"3000","time":"3 h"},{"id":"pizza-margherita","name":"Pizza Margherita","href":"/en/cooking/pizza-margherita","xp":"25000","time":"20 h"}]},{"building":"Kitchen","recipes":[{"id":"sunflower-crunch","name":"Sunflower Crunch","href":"/en/cooking/sunflower-crunch","xp":"50","time":"10 min"},{"id":"roast-veggies","name":"Roast Veggies","href":"/en/cooking/roast-veggies","xp":"170","time":"2 h"},{"id":"club-sandwich","name":"Club Sandwich","href":"/en/cooking/club-sandwich","xp":"170","time":"3 h"},{"id":"fruit-salad","name":"Fruit Salad","href":"/en/cooking/fruit-salad","xp":"225","time":"30 min"},{"id":"mushroom-jacket-potatoes","name":"Mushroom Jacket Potatoes","href":"/en/cooking/mushroom-jacket-potatoes","xp":"240","time":"10 min"},{"id":"cauliflower-burger","name":"Cauliflower Burger","href":"/en/cooking/cauliflower-burger","xp":"255","time":"3 h"},{"id":"bumpkin-salad","name":"Bumpkin Salad","href":"/en/cooking/bumpkin-salad","xp":"290","time":"3.5 h"},{"id":"goblins-treat","name":"Goblin's Treat","href":"/en/cooking/goblins-treat","xp":"500","time":"6 h"},{"id":"pancakes","name":"Pancakes","href":"/en/cooking/pancakes","xp":"1000","time":"1 h"},{"id":"bumpkin-ganoush","name":"Bumpkin ganoush","href":"/en/cooking/bumpkin-ganoush","xp":"1000","time":"5 h"},{"id":"chowder","name":"Chowder","href":"/en/cooking/chowder","xp":"1000","time":"8 h"},{"id":"tofu-scramble","name":"Tofu Scramble","href":"/en/cooking/tofu-scramble","xp":"1000","time":"3 h"},{"id":"fish-burger","name":"Fish Burger","href":"/en/cooking/fish-burger","xp":"1300","time":"2 h"},{"id":"fried-calamari","name":"Fried Calamari","href":"/en/cooking/fried-calamari","xp":"1500","time":"5 h"},{"id":"fish-omelette","name":"Fish Omelette","href":"/en/cooking/fish-omelette","xp":"1500","time":"5 h"},{"id":"beetroot-blaze","name":"Beetroot Blaze","href":"/en/cooking/beetroot-blaze","xp":"2000","time":"30s"},{"id":"oceans-olive","name":"Ocean's Olive","href":"/en/cooking/oceans-olive","xp":"2000","time":"2 h"},{"id":"fish-n-chips","name":"Fish n Chips","href":"/en/cooking/fish-n-chips","xp":"2000","time":"4 h"},{"id":"sushi-roll","name":"Sushi Roll","href":"/en/cooking/sushi-roll","xp":"2000","time":"1 h"},{"id":"seafood-basket","name":"Seafood Basket","href":"/en/cooking/seafood-basket","xp":"2200","time":"5 h"},{"id":"bumpkin-roast","name":"Bumpkin Roast","href":"/en/cooking/bumpkin-roast","xp":"2500","time":"12 h"},{"id":"goblin-brunch","name":"Goblin Brunch","href":"/en/cooking/goblin-brunch","xp":"2500","time":"12 h"},{"id":"surimi-rice-bowl","name":"Surimi Rice Bowl","href":"/en/cooking/surimi-rice-bowl","xp":"3000","time":"0s"},{"id":"steamed-red-rice","name":"Steamed Red Rice","href":"/en/cooking/steamed-red-rice","xp":"3000","time":"4 h"},{"id":"caprese-salad","name":"Caprese Salad","href":"/en/cooking/caprese-salad","xp":"6000","time":"3 h"},{"id":"creamy-crab-bite","name":"Creamy Crab Bite","href":"/en/cooking/creamy-crab-bite","xp":"10000","time":"0s"},{"id":"spaghetti-al-limone","name":"Spaghetti al Limone","href":"/en/cooking/spaghetti-al-limone","xp":"15000","time":"15 h"},{"id":"crimstone-infused-fish-oil","name":"Crimstone Infused Fish Oil","href":"/en/cooking/crimstone-infused-fish-oil","xp":"18000","time":"0s"}]},{"building":"Bakery","recipes":[{"id":"sunflower-cake","name":"Sunflower Cake","href":"/en/cooking/sunflower-cake","xp":"525","time":"6.5 h"},{"id":"cornbread","name":"Cornbread","href":"/en/cooking/cornbread","xp":"600","time":"12 h"},{"id":"pumpkin-cake","name":"Pumpkin Cake","href":"/en/cooking/pumpkin-cake","xp":"625","time":"10.5 h"},{"id":"potato-cake","name":"Potato Cake","href":"/en/cooking/potato-cake","xp":"650","time":"10.5 h"},{"id":"apple-pie","name":"Apple Pie","href":"/en/cooking/apple-pie","xp":"720","time":"4 h"},{"id":"kale-mushroom-pie","name":"Kale & Mushroom Pie","href":"/en/cooking/kale-mushroom-pie","xp":"720","time":"4 h"},{"id":"orange-cake","name":"Orange Cake","href":"/en/cooking/orange-cake","xp":"730","time":"4 h"},{"id":"carrot-cake","name":"Carrot Cake","href":"/en/cooking/carrot-cake","xp":"750","time":"13 h"},{"id":"cabbage-cake","name":"Cabbage Cake","href":"/en/cooking/cabbage-cake","xp":"860","time":"15 h"},{"id":"wheat-cake","name":"Wheat Cake","href":"/en/cooking/wheat-cake","xp":"1100","time":"24 h"},{"id":"cauliflower-cake","name":"Cauliflower Cake","href":"/en/cooking/cauliflower-cake","xp":"1190","time":"22 h"},{"id":"radish-cake","name":"Radish Cake","href":"/en/cooking/radish-cake","xp":"1200","time":"24 h"},{"id":"beetroot-cake","name":"Beetroot Cake","href":"/en/cooking/beetroot-cake","xp":"1250","time":"22 h"},{"id":"parsnip-cake","name":"Parsnip Cake","href":"/en/cooking/parsnip-cake","xp":"1300","time":"24 h"},{"id":"eggplant-cake","name":"Eggplant Cake","href":"/en/cooking/eggplant-cake","xp":"1400","time":"24 h"},{"id":"honey-cake","name":"Honey Cake","href":"/en/cooking/honey-cake","xp":"4000","time":"8 h"},{"id":"lemon-cheesecake","name":"Lemon Cheesecake","href":"/en/cooking/lemon-cheesecake","xp":"30000","time":"30 h"}]},{"building":"Deli","recipes":[{"id":"cheese","name":"Cheese","href":"/en/cooking/cheese","xp":"1","time":"20 min"},{"id":"fermented-carrots","name":"Fermented Carrots","href":"/en/cooking/fermented-carrots","xp":"250","time":"24 h"},{"id":"blueberry-jam","name":"Blueberry Jam","href":"/en/cooking/blueberry-jam","xp":"500","time":"12 h"},{"id":"sauerkraut","name":"Sauerkraut","href":"/en/cooking/sauerkraut","xp":"500","time":"24 h"},{"id":"fancy-fries","name":"Fancy Fries","href":"/en/cooking/fancy-fries","xp":"1000","time":"24 h"},{"id":"fermented-fish","name":"Fermented Fish","href":"/en/cooking/fermented-fish","xp":"3000","time":"24 h"},{"id":"blue-cheese","name":"Blue Cheese","href":"/en/cooking/blue-cheese","xp":"6000","time":"3 h"},{"id":"shroom-syrup","name":"Shroom Syrup","href":"/en/cooking/shroom-syrup","xp":"10000","time":"10s"},{"id":"honey-cheddar","name":"Honey Cheddar","href":"/en/cooking/honey-cheddar","xp":"15000","time":"12 h"}]},{"building":"Smoothie Shack","recipes":[{"id":"quick-juice","name":"Quick Juice","href":"/en/cooking/quick-juice","xp":"100","time":"30 min"},{"id":"carrot-juice","name":"Carrot Juice","href":"/en/cooking/carrot-juice","xp":"200","time":"1 h"},{"id":"purple-smoothie","name":"Purple Smoothie","href":"/en/cooking/purple-smoothie","xp":"310","time":"30 min"},{"id":"orange-juice","name":"Orange Juice","href":"/en/cooking/orange-juice","xp":"375","time":"45 min"},{"id":"apple-juice","name":"Apple Juice","href":"/en/cooking/apple-juice","xp":"500","time":"1 h"},{"id":"power-smoothie","name":"Power Smoothie","href":"/en/cooking/power-smoothie","xp":"775","time":"1.5 h"},{"id":"bumpkin-detox","name":"Bumpkin Detox","href":"/en/cooking/bumpkin-detox","xp":"975","time":"2 h"},{"id":"sour-shake","name":"Sour Shake","href":"/en/cooking/sour-shake","xp":"1000","time":"1 h"},{"id":"banana-blast","name":"Banana Blast","href":"/en/cooking/banana-blast","xp":"1200","time":"3 h"},{"id":"the-lot","name":"The Lot","href":"/en/cooking/the-lot","xp":"1500","time":"3.5 h"},{"id":"grape-juice","name":"Grape Juice","href":"/en/cooking/grape-juice","xp":"3300","time":"3 h"},{"id":"slow-juice","name":"Slow Juice","href":"/en/cooking/slow-juice","xp":"7500","time":"24 h"}]}];
+</script>
 
-| Recipe | Building | XP | Time |
-| --- | --- | --- | --- |
-| [Cheese](/en/cooking/cheese) | Deli | 1 | 20 min |
-| [Mashed Potato](/en/cooking/mashed-potato) | Fire Pit | 3 | 30s |
-| [Rhubarb Tart](/en/cooking/rhubarb-tart) | Fire Pit | 5 | 1 min |
-| [Pumpkin Soup](/en/cooking/pumpkin-soup) | Fire Pit | 24 | 3 min |
-| [Reindeer Carrot](/en/cooking/reindeer-carrot) | Fire Pit | 36 | 5 min |
-| [Sunflower Crunch](/en/cooking/sunflower-crunch) | Kitchen | 50 | 10 min |
-| [Mushroom Soup](/en/cooking/mushroom-soup) | Fire Pit | 56 | 10 min |
-| [Boiled Eggs](/en/cooking/boiled-eggs) | Fire Pit | 90 | 1 h |
-| [Bumpkin Broth](/en/cooking/bumpkin-broth) | Fire Pit | 96 | 20 min |
-| [Quick Juice](/en/cooking/quick-juice) | Smoothie Shack | 100 | 30 min |
-| [Roast Veggies](/en/cooking/roast-veggies) | Kitchen | 170 | 2 h |
-| [Club Sandwich](/en/cooking/club-sandwich) | Kitchen | 170 | 3 h |
-| [Popcorn](/en/cooking/popcorn) | Fire Pit | 200 | 12 min |
-| [Carrot Juice](/en/cooking/carrot-juice) | Smoothie Shack | 200 | 1 h |
-| [Fruit Salad](/en/cooking/fruit-salad) | Kitchen | 225 | 30 min |
-| [Mushroom Jacket Potatoes](/en/cooking/mushroom-jacket-potatoes) | Kitchen | 240 | 10 min |
-| [Cabbers n Mash](/en/cooking/cabbers-n-mash) | Fire Pit | 250 | 40 min |
-| [Fermented Carrots](/en/cooking/fermented-carrots) | Deli | 250 | 24 h |
-| [Cauliflower Burger](/en/cooking/cauliflower-burger) | Kitchen | 255 | 3 h |
-| [Bumpkin Salad](/en/cooking/bumpkin-salad) | Kitchen | 290 | 3.5 h |
-| [Rapid Roast](/en/cooking/rapid-roast) | Fire Pit | 300 | 10s |
-| [Purple Smoothie](/en/cooking/purple-smoothie) | Smoothie Shack | 310 | 30 min |
-| [Orange Juice](/en/cooking/orange-juice) | Smoothie Shack | 375 | 45 min |
-| [Kale Stew](/en/cooking/kale-stew) | Fire Pit | 400 | 2 h |
-| [Fried Tofu](/en/cooking/fried-tofu) | Fire Pit | 400 | 1.5 h |
-| [Goblin's Treat](/en/cooking/goblins-treat) | Kitchen | 500 | 6 h |
-| [Blueberry Jam](/en/cooking/blueberry-jam) | Deli | 500 | 12 h |
-| [Sauerkraut](/en/cooking/sauerkraut) | Deli | 500 | 24 h |
-| [Apple Juice](/en/cooking/apple-juice) | Smoothie Shack | 500 | 1 h |
-| [Sunflower Cake](/en/cooking/sunflower-cake) | Bakery | 525 | 6.5 h |
-| [Gumbo](/en/cooking/gumbo) | Fire Pit | 600 | 4 h |
-| [Cornbread](/en/cooking/cornbread) | Bakery | 600 | 12 h |
-| [Pumpkin Cake](/en/cooking/pumpkin-cake) | Bakery | 625 | 10.5 h |
-| [Potato Cake](/en/cooking/potato-cake) | Bakery | 650 | 10.5 h |
-| [Apple Pie](/en/cooking/apple-pie) | Bakery | 720 | 4 h |
-| [Kale & Mushroom Pie](/en/cooking/kale-mushroom-pie) | Bakery | 720 | 4 h |
-| [Orange Cake](/en/cooking/orange-cake) | Bakery | 730 | 4 h |
-| [Carrot Cake](/en/cooking/carrot-cake) | Bakery | 750 | 13 h |
-| [Power Smoothie](/en/cooking/power-smoothie) | Smoothie Shack | 775 | 1.5 h |
-| [Cabbage Cake](/en/cooking/cabbage-cake) | Bakery | 860 | 15 h |
-| [Bumpkin Detox](/en/cooking/bumpkin-detox) | Smoothie Shack | 975 | 2 h |
-| [Furikake Sprinkle](/en/cooking/furikake-sprinkle) | Fire Pit | 1000 | 0s |
-| [Pancakes](/en/cooking/pancakes) | Kitchen | 1000 | 1 h |
-| [Bumpkin ganoush](/en/cooking/bumpkin-ganoush) | Kitchen | 1000 | 5 h |
-| [Chowder](/en/cooking/chowder) | Kitchen | 1000 | 8 h |
-| [Tofu Scramble](/en/cooking/tofu-scramble) | Kitchen | 1000 | 3 h |
-| [Fancy Fries](/en/cooking/fancy-fries) | Deli | 1000 | 24 h |
-| [Sour Shake](/en/cooking/sour-shake) | Smoothie Shack | 1000 | 1 h |
-| [Wheat Cake](/en/cooking/wheat-cake) | Bakery | 1100 | 24 h |
-| [Cauliflower Cake](/en/cooking/cauliflower-cake) | Bakery | 1190 | 22 h |
-| [Radish Cake](/en/cooking/radish-cake) | Bakery | 1200 | 24 h |
-| [Banana Blast](/en/cooking/banana-blast) | Smoothie Shack | 1200 | 3 h |
-| [Kale Omelette](/en/cooking/kale-omelette) | Fire Pit | 1250 | 3.5 h |
-| [Beetroot Cake](/en/cooking/beetroot-cake) | Bakery | 1250 | 22 h |
-| [Fish Burger](/en/cooking/fish-burger) | Kitchen | 1300 | 2 h |
-| [Parsnip Cake](/en/cooking/parsnip-cake) | Bakery | 1300 | 24 h |
-| [Eggplant Cake](/en/cooking/eggplant-cake) | Bakery | 1400 | 24 h |
-| [Fried Calamari](/en/cooking/fried-calamari) | Kitchen | 1500 | 5 h |
-| [Fish Omelette](/en/cooking/fish-omelette) | Kitchen | 1500 | 5 h |
-| [The Lot](/en/cooking/the-lot) | Smoothie Shack | 1500 | 3.5 h |
-| [Beetroot Blaze](/en/cooking/beetroot-blaze) | Kitchen | 2000 | 30s |
-| [Ocean's Olive](/en/cooking/oceans-olive) | Kitchen | 2000 | 2 h |
-| [Fish n Chips](/en/cooking/fish-n-chips) | Kitchen | 2000 | 4 h |
-| [Sushi Roll](/en/cooking/sushi-roll) | Kitchen | 2000 | 1 h |
-| [Seafood Basket](/en/cooking/seafood-basket) | Kitchen | 2200 | 5 h |
-| [Bumpkin Roast](/en/cooking/bumpkin-roast) | Kitchen | 2500 | 12 h |
-| [Goblin Brunch](/en/cooking/goblin-brunch) | Kitchen | 2500 | 12 h |
-| [Rice Bun](/en/cooking/rice-bun) | Fire Pit | 2600 | 5 h |
-| [Saltbite](/en/cooking/saltbite) | Fire Pit | 3000 | 4 h |
-| [Antipasto](/en/cooking/antipasto) | Fire Pit | 3000 | 3 h |
-| [Surimi Rice Bowl](/en/cooking/surimi-rice-bowl) | Kitchen | 3000 | 0s |
-| [Steamed Red Rice](/en/cooking/steamed-red-rice) | Kitchen | 3000 | 4 h |
-| [Fermented Fish](/en/cooking/fermented-fish) | Deli | 3000 | 24 h |
-| [Grape Juice](/en/cooking/grape-juice) | Smoothie Shack | 3300 | 3 h |
-| [Honey Cake](/en/cooking/honey-cake) | Bakery | 4000 | 8 h |
-| [Caprese Salad](/en/cooking/caprese-salad) | Kitchen | 6000 | 3 h |
-| [Blue Cheese](/en/cooking/blue-cheese) | Deli | 6000 | 3 h |
-| [Slow Juice](/en/cooking/slow-juice) | Smoothie Shack | 7500 | 24 h |
-| [Creamy Crab Bite](/en/cooking/creamy-crab-bite) | Kitchen | 10000 | 0s |
-| [Shroom Syrup](/en/cooking/shroom-syrup) | Deli | 10000 | 10s |
-| [Spaghetti al Limone](/en/cooking/spaghetti-al-limone) | Kitchen | 15000 | 15 h |
-| [Honey Cheddar](/en/cooking/honey-cheddar) | Deli | 15000 | 12 h |
-| [Crimstone Infused Fish Oil](/en/cooking/crimstone-infused-fish-oil) | Kitchen | 18000 | 0s |
-| [Pizza Margherita](/en/cooking/pizza-margherita) | Fire Pit | 25000 | 20 h |
-| [Lemon Cheesecake](/en/cooking/lemon-cheesecake) | Bakery | 30000 | 30 h |
+<CookingTables locale="en" :buildings="buildings" :groups="groups" />
 
 ---
 

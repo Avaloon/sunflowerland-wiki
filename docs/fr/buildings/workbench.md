@@ -4,8 +4,11 @@ title: Workbench
 
 # Workbench
 
+<img class="item-icon" src="https://sfl.world/img/source/Workbench.png" alt="Workbench" width="48" height="48" />
+
 | | |
 |---|---|
+| Ascension requise | 0 |
 | Niveau requis | — |
 | Coins | 5 |
 | Construction | 1 min |

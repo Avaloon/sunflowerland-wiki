@@ -4,11 +4,13 @@ title: Celestine
 
 # Celestine
 
+![Celestine](/icons/celestine.webp)
+
 | | |
 |---|---|
 | Sell price | 200 |
+| Seasons | Full moon |
 | Bush | Yes |
-| Kind | patch-fruit |
 | Seed | Celestine Seed |
 | Seed price | 300 |
 | Grow time | 6 h |

@@ -4,9 +4,11 @@ title: Slow Juice
 
 # Slow Juice
 
+<img class="item-icon" src="https://sfl.world/img/source/Slow%20Juice.png" alt="Slow Juice" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Smoothie Shack |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Smoothie%20Shack.png" alt="Smoothie Shack" width="24" height="24" /> Smoothie Shack |
 | XP | 7500 |
 | Temps de cuisson | 24 h |
 

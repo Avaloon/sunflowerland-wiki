@@ -4,9 +4,11 @@ title: Parsnip Cake
 
 # Parsnip Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Parsnip%20Cake.png" alt="Parsnip Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Bakery |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 1300 |
 | Temps de cuisson | 24 h |
 

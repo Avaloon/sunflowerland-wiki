@@ -5,13 +5,15 @@ description: Sunflower crop data
 
 # Sunflower
 
+![Sunflower](/icons/sunflower.png)
+
 | | |
 |---|---|
 | Category | Basic |
+| Seasons | Spring, Summer |
 | Sell price | 0.02 |
 | Harvest time | 1 min |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

@@ -4,11 +4,13 @@ title: Orange
 
 # Orange
 
+![Orange](/icons/orange.png)
+
 | | |
 |---|---|
 | Sell price | 18 |
+| Seasons | Spring, Summer |
 | Bush | No |
-| Kind | patch-fruit |
 | Seed | Orange Seed |
 | Seed price | 50 |
 | Grow time | 8 h |

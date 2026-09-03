@@ -5,13 +5,15 @@ description: Barley crop data
 
 # Barley
 
+![Barley](/icons/barley.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Spring, Autumn |
 | Sell price | 12 |
 | Harvest time | 48 h |
 | Overnight | Yes |
-| Kind | crop |
 
 ## Seed
 

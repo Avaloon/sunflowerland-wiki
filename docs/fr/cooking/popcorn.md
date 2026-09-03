@@ -4,9 +4,11 @@ title: Popcorn
 
 # Popcorn
 
+<img class="item-icon" src="https://sfl.world/img/source/Popcorn.png" alt="Popcorn" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Fire Pit |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Fire%20Pit.png" alt="Fire Pit" width="24" height="24" /> Fire Pit |
 | XP | 200 |
 | Temps de cuisson | 12 min |
 

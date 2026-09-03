@@ -4,9 +4,11 @@ title: Bumpkin Detox
 
 # Bumpkin Detox
 
+<img class="item-icon" src="https://sfl.world/img/source/Bumpkin%20Detox.png" alt="Bumpkin Detox" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Smoothie Shack |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Smoothie%20Shack.png" alt="Smoothie Shack" width="24" height="24" /> Smoothie Shack |
 | XP | 975 |
 | Temps de cuisson | 2 h |
 

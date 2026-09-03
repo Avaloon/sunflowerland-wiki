@@ -4,9 +4,11 @@ title: Club Sandwich
 
 # Club Sandwich
 
+<img class="item-icon" src="https://sfl.world/img/source/Club%20Sandwich.png" alt="Club Sandwich" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 170 |
 | Cook time | 3 h |
 

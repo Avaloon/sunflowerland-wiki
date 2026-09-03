@@ -5,13 +5,15 @@ description: Kale crop data
 
 # Kale
 
+![Kale](/icons/kale.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Spring, Winter |
 | Sell price | 10 |
 | Harvest time | 36 h |
 | Overnight | Yes |
-| Kind | crop |
 
 ## Seed
 

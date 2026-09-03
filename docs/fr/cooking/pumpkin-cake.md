@@ -4,9 +4,11 @@ title: Pumpkin Cake
 
 # Pumpkin Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Pumpkin%20Cake.png" alt="Pumpkin Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Bakery |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 625 |
 | Temps de cuisson | 10.5 h |
 

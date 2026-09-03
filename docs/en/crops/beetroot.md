@@ -5,13 +5,15 @@ description: Beetroot crop data
 
 # Beetroot
 
+![Beetroot](/icons/beetroot.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Summer, Winter |
 | Sell price | 2.8 |
 | Harvest time | 4 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

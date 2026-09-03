@@ -5,13 +5,15 @@ description: Broccoli crop data
 
 # Broccoli
 
+![Broccoli](/icons/broccoli.png)
+
 | | |
 |---|---|
 | Category | Medium |
+| Seasons | Autumn |
 | Sell price | 1.5 |
 | Harvest time | 2 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

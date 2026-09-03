@@ -4,11 +4,13 @@ title: Lemon
 
 # Lemon
 
+![Lemon](/icons/lemon.webp)
+
 | | |
 |---|---|
 | Prix de vente | 6 |
+| Saisons | Été, Hiver |
 | Buisson | Non |
-| Type | patch-fruit |
 | Graine | Lemon Seed |
 | Prix graine | 15 |
 | Temps | 4 h |

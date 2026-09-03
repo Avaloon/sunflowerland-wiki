@@ -5,13 +5,15 @@ description: Broccoli crop data
 
 # Broccoli
 
+![Broccoli](/icons/broccoli.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Automne |
 | Prix de vente | 1.5 |
 | Temps de récolte | 2 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

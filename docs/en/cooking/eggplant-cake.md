@@ -4,9 +4,11 @@ title: Eggplant Cake
 
 # Eggplant Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Eggplant%20Cake.png" alt="Eggplant Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Bakery |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 1400 |
 | Cook time | 24 h |
 

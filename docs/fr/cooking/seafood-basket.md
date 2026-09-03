@@ -4,9 +4,11 @@ title: Seafood Basket
 
 # Seafood Basket
 
+<img class="item-icon" src="https://sfl.world/img/source/Seafood%20Basket.png" alt="Seafood Basket" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 2200 |
 | Temps de cuisson | 5 h |
 

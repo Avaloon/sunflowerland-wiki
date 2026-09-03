@@ -5,13 +5,15 @@ description: Radish crop data
 
 # Radish
 
+![Radish](/icons/radish.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Summer |
 | Sell price | 9.5 |
 | Harvest time | 24 h |
 | Overnight | Yes |
-| Kind | crop |
 
 ## Seed
 

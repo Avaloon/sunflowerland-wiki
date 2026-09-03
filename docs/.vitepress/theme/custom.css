@@ -1,0 +1,16 @@
+.item-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+}
+
+h1 + .item-icon,
+h1 ~ .item-icon:first-of-type {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0.5rem 0 1rem;
+}

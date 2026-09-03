@@ -4,11 +4,13 @@ title: Tomato
 
 # Tomato
 
+![Tomato](/icons/tomato.webp)
+
 | | |
 |---|---|
 | Sell price | 2 |
+| Seasons | Spring, Autumn |
 | Bush | Yes |
-| Kind | patch-fruit |
 | Seed | Tomato Seed |
 | Seed price | 5 |
 | Grow time | 2 h |

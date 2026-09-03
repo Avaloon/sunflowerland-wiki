@@ -5,13 +5,15 @@ description: Yam crop data
 
 # Yam
 
+![Yam](/icons/yam.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Automne |
 | Prix de vente | 0.8 |
 | Temps de récolte | 1 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

@@ -4,9 +4,11 @@ title: Sunflower Crunch
 
 # Sunflower Crunch
 
+<img class="item-icon" src="https://sfl.world/img/source/Sunflower%20Crunch.png" alt="Sunflower Crunch" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Kitchen |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 50 |
 | Temps de cuisson | 10 min |
 

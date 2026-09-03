@@ -5,13 +5,15 @@ description: Wheat crop data
 
 # Wheat
 
+![Wheat](/icons/wheat.png)
+
 | | |
 |---|---|
 | Catégorie | Avancée |
+| Saisons | Printemps, Été, Automne, Hiver |
 | Prix de vente | 7 |
 | Temps de récolte | 24 h |
 | Overnight | Oui |
-| Type | crop |
 
 ## Graine
 

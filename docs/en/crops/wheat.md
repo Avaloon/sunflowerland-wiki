@@ -5,13 +5,15 @@ description: Wheat crop data
 
 # Wheat
 
+![Wheat](/icons/wheat.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Spring, Summer, Autumn, Winter |
 | Sell price | 7 |
 | Harvest time | 24 h |
 | Overnight | Yes |
-| Kind | crop |
 
 ## Seed
 

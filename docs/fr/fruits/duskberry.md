@@ -4,11 +4,13 @@ title: Duskberry
 
 # Duskberry
 
+![Duskberry](/icons/duskberry.webp)
+
 | | |
 |---|---|
 | Prix de vente | 1000 |
+| Saisons | Pleine lune |
 | Buisson | Oui |
-| Type | patch-fruit |
 | Graine | Duskberry Seed |
 | Prix graine | 1250 |
 | Temps | 24 h |

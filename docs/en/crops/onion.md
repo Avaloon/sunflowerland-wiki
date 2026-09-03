@@ -5,13 +5,15 @@ description: Onion crop data
 
 # Onion
 
+![Onion](/icons/onion.png)
+
 | | |
 |---|---|
 | Category | Advanced |
+| Seasons | Winter |
 | Sell price | 10 |
 | Harvest time | 20 h |
 | Overnight | No |
-| Kind | crop |
 
 ## Seed
 

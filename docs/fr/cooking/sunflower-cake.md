@@ -4,9 +4,11 @@ title: Sunflower Cake
 
 # Sunflower Cake
 
+<img class="item-icon" src="https://sfl.world/img/source/Sunflower%20Cake.png" alt="Sunflower Cake" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Bakery |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Bakery.png" alt="Bakery" width="24" height="24" /> Bakery |
 | XP | 525 |
 | Temps de cuisson | 6.5 h |
 

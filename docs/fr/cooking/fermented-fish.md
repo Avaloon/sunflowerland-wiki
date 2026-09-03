@@ -4,9 +4,11 @@ title: Fermented Fish
 
 # Fermented Fish
 
+<img class="item-icon" src="https://sfl.world/img/source/Fermented%20Fish.png" alt="Fermented Fish" width="48" height="48" />
+
 | | |
 |---|---|
-| Bâtiment | Deli |
+| Bâtiment | <img class="item-icon" src="https://sfl.world/img/source/Deli.png" alt="Deli" width="24" height="24" /> Deli |
 | XP | 3000 |
 | Temps de cuisson | 24 h |
 

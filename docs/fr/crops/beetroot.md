@@ -5,13 +5,15 @@ description: Beetroot crop data
 
 # Beetroot
 
+![Beetroot](/icons/beetroot.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Été, Hiver |
 | Prix de vente | 2.8 |
 | Temps de récolte | 4 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

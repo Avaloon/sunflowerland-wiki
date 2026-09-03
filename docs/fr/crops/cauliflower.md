@@ -5,13 +5,15 @@ description: Cauliflower crop data
 
 # Cauliflower
 
+![Cauliflower](/icons/cauliflower.png)
+
 | | |
 |---|---|
 | Catégorie | Moyenne |
+| Saisons | Été, Hiver |
 | Prix de vente | 4.25 |
 | Temps de récolte | 8 h |
 | Overnight | Non |
-| Type | crop |
 
 ## Graine
 

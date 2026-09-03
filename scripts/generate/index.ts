@@ -1,6 +1,6 @@
 import { existsSync } from "node:fs";
 import { DATA_DIR, readVersion } from "../lib/paths.ts";
-import { generateCrops, generateFruits, generateSeasons } from "./farming.ts";
+import { generateCrops, generateFruits, generateGreenhouse, generateSeasons } from "./farming.ts";
 import { generateBuildings, generateCooking } from "./production.ts";
 import {
   generateAnimals,
@@ -15,7 +15,7 @@ import {
   generateFlowers,
   generateSkills,
 } from "./exploration.ts";
-import { generateAbout, generateGuides, refreshHomes } from "./guides.ts";
+import { generateGuides, refreshHomes } from "./guides.ts";
 
 function main() {
   if (!existsSync(DATA_DIR)) {
@@ -35,6 +35,7 @@ function main() {
 
   generateCrops(meta);
   generateFruits(meta);
+  generateGreenhouse(meta);
   generateSeasons(meta);
   generateCooking(meta);
   generateBuildings(meta);
@@ -48,7 +49,6 @@ function main() {
   generateSkills(meta);
   generateExpansions(meta);
   generateGuides(meta);
-  generateAbout(meta);
   refreshHomes(meta);
 
   console.log("Wiki markdown generated under docs/en and docs/fr.");

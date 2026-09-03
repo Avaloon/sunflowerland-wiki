@@ -4,9 +4,11 @@ title: Caprese Salad
 
 # Caprese Salad
 
+<img class="item-icon" src="https://sfl.world/img/source/Caprese%20Salad.png" alt="Caprese Salad" width="48" height="48" />
+
 | | |
 |---|---|
-| Building | Kitchen |
+| Building | <img class="item-icon" src="https://sfl.world/img/source/Kitchen.png" alt="Kitchen" width="24" height="24" /> Kitchen |
 | XP | 6000 |
 | Cook time | 3 h |
 

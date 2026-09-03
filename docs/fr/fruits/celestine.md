@@ -4,11 +4,13 @@ title: Celestine
 
 # Celestine
 
+![Celestine](/icons/celestine.webp)
+
 | | |
 |---|---|
 | Prix de vente | 200 |
+| Saisons | Pleine lune |
 | Buisson | Oui |
-| Type | patch-fruit |
 | Graine | Celestine Seed |
 | Prix graine | 300 |
 | Temps | 6 h |
