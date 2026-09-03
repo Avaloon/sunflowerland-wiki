@@ -11,10 +11,20 @@ Bienvenue sur ce **wiki fan non officiel**. Le contenu est rédigé à la main �
 
 ## Parcourir
 
+- [Bâtiments](/fr/buildings/)
 - [Cultures](/fr/crops/)
-- [Guides](/fr/guides/) (stub)
-- [Compétences](/fr/skills/) (stub)
-- [Bâtiments](/fr/buildings/) (stub)
+- [Fruits](/fr/fruits/)
+- [Serre](/fr/greenhouse/)
+- [Saisons](/fr/seasons/)
+- [Pêche](/fr/fishing/)
+- [Fleurs](/fr/flowers/)
+- [Ressources](/fr/resources/)
+- [Compost](/fr/compost/)
+- [Animaux](/fr/animals/)
+- [Cuisine](/fr/cooking/)
+- [Compétences](/fr/skills/)
+- [Expansions](/fr/expansions/)
+- [Marketplace](/fr/marketplace/)
 
 ## Liens
 

@@ -3,10 +3,47 @@ import { defineConfig } from "vitepress";
 // For project Pages (https://user.github.io/repo/), set DOCS_BASE=/repo/ when building.
 const base = process.env.DOCS_BASE || "/";
 
+const enNav = [
+  { text: "Home", link: "/en/" },
+  { text: "Buildings", link: "/en/buildings/" },
+  { text: "Crops", link: "/en/crops/" },
+  { text: "Fruits", link: "/en/fruits/" },
+  { text: "Greenhouse", link: "/en/greenhouse/" },
+  { text: "Seasons", link: "/en/seasons/" },
+  { text: "Fishing", link: "/en/fishing/" },
+  { text: "Flowers", link: "/en/flowers/" },
+  { text: "Resources", link: "/en/resources/" },
+  { text: "Compost", link: "/en/compost/" },
+  { text: "Animals", link: "/en/animals/" },
+  { text: "Cooking", link: "/en/cooking/" },
+  { text: "Skills", link: "/en/skills/" },
+  { text: "Expansions", link: "/en/expansions/" },
+  { text: "Marketplace", link: "/en/marketplace/" },
+];
+
+const frNav = [
+  { text: "Accueil", link: "/fr/" },
+  { text: "Bâtiments", link: "/fr/buildings/" },
+  { text: "Cultures", link: "/fr/crops/" },
+  { text: "Fruits", link: "/fr/fruits/" },
+  { text: "Serre", link: "/fr/greenhouse/" },
+  { text: "Saisons", link: "/fr/seasons/" },
+  { text: "Pêche", link: "/fr/fishing/" },
+  { text: "Fleurs", link: "/fr/flowers/" },
+  { text: "Ressources", link: "/fr/resources/" },
+  { text: "Compost", link: "/fr/compost/" },
+  { text: "Animaux", link: "/fr/animals/" },
+  { text: "Cuisine", link: "/fr/cooking/" },
+  { text: "Compétences", link: "/fr/skills/" },
+  { text: "Expansions", link: "/fr/expansions/" },
+  { text: "Marketplace", link: "/fr/marketplace/" },
+];
+
 export default defineConfig({
   base,
   title: "Sunflower Land Wiki",
-  description: "Unofficial bilingual wiki documented from the Sunflower Land game repository",
+  description:
+    "Unofficial bilingual wiki documented from the Sunflower Land game repository",
   cleanUrls: true,
   lastUpdated: true,
   ignoreDeadLinks: true,
@@ -17,62 +54,20 @@ export default defineConfig({
       lang: "en",
       link: "/en/",
       themeConfig: {
-        nav: [
-          { text: "Home", link: "/en/" },
-          { text: "Crops", link: "/en/crops/" },
-          { text: "Greenhouse", link: "/en/greenhouse/" },
-          { text: "Cooking", link: "/en/cooking/" },
-          { text: "Animals", link: "/en/animals/" },
-          { text: "Guides", link: "/en/guides/" },
-        ],
+        nav: [{ text: "Home", link: "/en/" }],
         sidebar: {
           "/en/": [
             {
-              text: "Start",
-              items: [
-                { text: "Home", link: "/en/" },
-                { text: "Guides", link: "/en/guides/" },
-              ],
-            },
-            {
-              text: "Farming",
-              items: [
-                { text: "Crops", link: "/en/crops/" },
-                { text: "Fruits", link: "/en/fruits/" },
-                { text: "Greenhouse", link: "/en/greenhouse/" },
-                { text: "Seasons", link: "/en/seasons/" },
-              ],
-            },
-            {
-              text: "Production",
-              items: [
-                { text: "Cooking", link: "/en/cooking/" },
-                { text: "Animals", link: "/en/animals/" },
-                { text: "Compost", link: "/en/compost/" },
-                { text: "Resources", link: "/en/resources/" },
-                { text: "Tools", link: "/en/tools/" },
-              ],
-            },
-            {
-              text: "Exploration",
-              items: [
-                { text: "Fishing", link: "/en/fishing/" },
-                { text: "Flowers", link: "/en/flowers/" },
-                { text: "Craftables", link: "/en/craftables/" },
-              ],
-            },
-            {
-              text: "Progression",
-              items: [
-                { text: "Skills", link: "/en/skills/" },
-                { text: "Buildings", link: "/en/buildings/" },
-                { text: "Expansions", link: "/en/expansions/" },
-              ],
+              text: "Wiki",
+              items: enNav,
             },
           ],
         },
         socialLinks: [
-          { icon: "github", link: "https://github.com/sunflower-land/sunflower-land" },
+          {
+            icon: "github",
+            link: "https://github.com/sunflower-land/sunflower-land",
+          },
         ],
       },
     },
@@ -81,62 +76,20 @@ export default defineConfig({
       lang: "fr",
       link: "/fr/",
       themeConfig: {
-        nav: [
-          { text: "Accueil", link: "/fr/" },
-          { text: "Cultures", link: "/fr/crops/" },
-          { text: "Serre", link: "/fr/greenhouse/" },
-          { text: "Cuisine", link: "/fr/cooking/" },
-          { text: "Animaux", link: "/fr/animals/" },
-          { text: "Guides", link: "/fr/guides/" },
-        ],
+        nav: [{ text: "Accueil", link: "/fr/" }],
         sidebar: {
           "/fr/": [
             {
-              text: "Démarrer",
-              items: [
-                { text: "Accueil", link: "/fr/" },
-                { text: "Guides", link: "/fr/guides/" },
-              ],
-            },
-            {
-              text: "Agriculture",
-              items: [
-                { text: "Cultures", link: "/fr/crops/" },
-                { text: "Fruits", link: "/fr/fruits/" },
-                { text: "Serre", link: "/fr/greenhouse/" },
-                { text: "Saisons", link: "/fr/seasons/" },
-              ],
-            },
-            {
-              text: "Production",
-              items: [
-                { text: "Cuisine", link: "/fr/cooking/" },
-                { text: "Animaux", link: "/fr/animals/" },
-                { text: "Compost", link: "/fr/compost/" },
-                { text: "Ressources", link: "/fr/resources/" },
-                { text: "Outils", link: "/fr/tools/" },
-              ],
-            },
-            {
-              text: "Exploration",
-              items: [
-                { text: "Pêche", link: "/fr/fishing/" },
-                { text: "Fleurs", link: "/fr/flowers/" },
-                { text: "Craft", link: "/fr/craftables/" },
-              ],
-            },
-            {
-              text: "Progression",
-              items: [
-                { text: "Compétences", link: "/fr/skills/" },
-                { text: "Bâtiments", link: "/fr/buildings/" },
-                { text: "Expansions", link: "/fr/expansions/" },
-              ],
+              text: "Wiki",
+              items: frNav,
             },
           ],
         },
         socialLinks: [
-          { icon: "github", link: "https://github.com/sunflower-land/sunflower-land" },
+          {
+            icon: "github",
+            link: "https://github.com/sunflower-land/sunflower-land",
+          },
         ],
       },
     },
