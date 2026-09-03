@@ -6,7 +6,7 @@ const base = process.env.DOCS_BASE || "/";
 export default defineConfig({
   base,
   title: "Sunflower Land Wiki",
-  description: "Unofficial bilingual wiki generated from the Sunflower Land game repository",
+  description: "Unofficial bilingual wiki documented from the Sunflower Land game repository",
   cleanUrls: true,
   lastUpdated: true,
   ignoreDeadLinks: true,
@@ -74,10 +74,6 @@ export default defineConfig({
         socialLinks: [
           { icon: "github", link: "https://github.com/sunflower-land/sunflower-land" },
         ],
-        footer: {
-          message: "Unofficial fan wiki. Not affiliated with Sunflower Land.",
-          copyright: "Data sourced from the public game repository.",
-        },
       },
     },
     fr: {
@@ -142,10 +138,6 @@ export default defineConfig({
         socialLinks: [
           { icon: "github", link: "https://github.com/sunflower-land/sunflower-land" },
         ],
-        footer: {
-          message: "Wiki fan non officiel. Non affilié à Sunflower Land.",
-          copyright: "Données issues du dépôt public du jeu.",
-        },
       },
     },
   },

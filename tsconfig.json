@@ -7,9 +7,11 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
     "types": ["node"],
     "rootDir": ".",
-    "outDir": "dist"
+    "outDir": "dist",
+    "noEmit": true
   },
   "include": ["scripts/**/*.ts"]
 }

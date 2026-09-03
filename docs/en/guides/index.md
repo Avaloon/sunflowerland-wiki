@@ -1,29 +1,10 @@
 ---
 title: Guides
+description: Mechanics guides — stub
 ---
 
 # Guides
 
-Mechanics explainers for Sunflower Land. Stats live on the item pages; these guides explain **how systems work**.
+Stub section. Mechanics explainers will live here (how systems work). Item stats stay on item pages such as [Crops](/en/crops/).
 
-## Farming
-
-- [Crops & planting](/en/guides/crops)
-- [Seasons & weather](/en/guides/seasons)
-- [Fruits](/en/guides/fruits)
-- [Greenhouse](/en/greenhouse/)
-
-## Production
-
-- [Cooking & XP](/en/guides/cooking)
-- [Animals & feed](/en/guides/animals)
-- [Compost & resources](/en/guides/resources)
-
-## Exploration & progression
-
-- [Fishing & flowers](/en/guides/exploration)
-- [Skills & buildings](/en/guides/progression)
-
----
-
-_Reference commit: `3de9b18`_
+Write guides by reading the relevant files under `reference/sunflower-land/src/features/game/`.

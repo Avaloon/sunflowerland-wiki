@@ -25,6 +25,4 @@ description: Radish crop data
 
 [← Toutes les cultures](/fr/crops/)
 
----
-
-_Données extraites de `crops.ts` @ `3de9b18`. Wiki fan non officiel._
+_Source : `crops.ts` / `seeds.ts` dans la légende locale._

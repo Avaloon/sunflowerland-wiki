@@ -25,6 +25,4 @@ description: Corn crop data
 
 [← All crops](/en/crops/)
 
----
-
-_Data extracted from `crops.ts` @ `3de9b18`. Unofficial fan wiki._
+_Source: `crops.ts` / `seeds.ts` in the local game legend._

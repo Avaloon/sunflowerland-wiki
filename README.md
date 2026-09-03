@@ -1,6 +1,6 @@
 # Sunflower Land Wiki
 
-Fan wiki for [Sunflower Land](https://sunflower-land.com/), bilingual (**English** / **Français**), generated from the official game source:
+Fan wiki for [Sunflower Land](https://sunflower-land.com/), bilingual (**English** / **Français**), documented from the official game source:
 
 - Game repo: [sunflower-land/sunflower-land](https://github.com/sunflower-land/sunflower-land)
 - Play: [sunflower-land.com/play](https://sunflower-land.com/play)
@@ -10,7 +10,7 @@ This is an **unofficial fan project**. It does not redistribute game code, media
 
 ## Live site
 
-GitHub only hosts the **static HTML** (branch `gh-pages`). All sync, extract, generate, and build run **locally** — there is no GitHub Actions automation.
+GitHub only hosts the **static HTML** (branch `gh-pages`). Sync, editing, and build run **locally** — there is no GitHub Actions automation.
 
 - Default (Français): `/fr/`
 - English: `/en/`
@@ -21,28 +21,37 @@ Site URL (after first publish): https://avaloon.github.io/sunflowerland-wiki/fr/
 
 ```bash
 npm install
-npm run check-updates   # optional: see if game main moved
-npm run pipeline        # sync reference → extract → generate markdown
-npm run dev             # preview while editing
+npm run sync            # clone/update full game repo under reference/sunflower-land/
+npm run check-updates   # see if upstream main moved + which wiki areas to review
+npm run dev             # preview while editing docs/
 npm run publish:pages   # build + force-push static site to gh-pages
 ```
 
-Commit and push `main` when you want to save source/scripts/data. Use `publish:pages` when you want the public site updated.
+### When the game updates
+
+1. `npm run check-updates` — compare the pinned SHA to upstream `main` and list changed game files
+2. `npm run sync` — if you decide to align the local legend
+3. Read the diff in `reference/sunflower-land/` for the files that changed
+4. Edit **only** the matching pages under `docs/`
+5. Commit the wiki repo and run `npm run publish:pages` if you want the public site updated
 
 ### Scripts
 
 | Script | Purpose |
 |--------|---------|
-| `npm run sync` | Sparse-checkout the game repo (local only) |
-| `npm run extract` | Parse game types → `data/*.json` |
-| `npm run generate` | Markdown under `docs/en` and `docs/fr` |
-| `npm run check-updates` | Compare pinned SHA vs upstream `main` |
+| `npm run sync` | Full clone/update of the game repo (local legend only) |
+| `npm run check-updates` | Compare pinned SHA vs upstream `main` + wiki hints |
 | `npm run build` | Production static site |
 | `npm run publish:pages` | Build locally and push to `gh-pages` |
 
 ## Reference version
 
-The pinned game commit is in [`reference/version.json`](reference/version.json). The sparse checkout under `reference/sunflower-land/` is gitignored and never published.
+The pinned game commit is in [`reference/version.json`](reference/version.json). The full checkout under `reference/sunflower-land/` is gitignored and never published.
+
+## Content status
+
+- **Crops** (`docs/*/crops/`) — example section filled from the game sources
+- Other sections — stubs to complete by reading the local legend
 
 ## Licence / disclaimer
 

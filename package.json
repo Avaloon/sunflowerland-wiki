@@ -2,17 +2,14 @@
   "name": "sunflowerland-wiki",
   "version": "0.1.0",
   "private": true,
-  "description": "Fan wiki for Sunflower Land, generated from the official game repository",
+  "description": "Fan wiki for Sunflower Land, documented from the official game repository",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "sync": "tsx scripts/sync-reference.ts",
-    "extract": "tsx scripts/extract/index.ts",
-    "generate": "tsx scripts/generate/index.ts",
     "check-updates": "tsx scripts/check-updates.ts",
-    "pipeline": "npm run sync && npm run extract && npm run generate",
     "publish:pages": "tsx scripts/publish-pages.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },

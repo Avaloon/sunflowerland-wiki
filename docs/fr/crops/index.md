@@ -1,18 +1,49 @@
 ---
 title: Cultures
-description: Prix de vente, temps de récolte et prix de la graine au marché. Filtrez par saison ou par catégorie de graine (basique / moyenne / avancée, selon le temps de pousse).
+description: Prix de vente, temps de récolte et prix des graines depuis le code du jeu (crops.ts / seeds.ts).
 ---
 
 # Cultures
 
-Prix de vente, temps de récolte et **prix de la graine** au marché. Filtrez par saison ou par catégorie de graine (basique / moyenne / avancée, selon le temps de pousse).
+Les stats ci-dessous viennent de la légende locale du jeu (`crops.ts`, `seeds.ts`). Elles peuvent changer après une mise à jour — revérifier ces fichiers après `npm run check-updates`.
 
-<script setup>
-const rows = [{"id":"sunflower","name":"Sunflower","href":"/fr/crops/sunflower","icon":"/icons/sunflower.png","category":"Basique","seasons":["spring","summer"],"sell":"0.02","time":"1 min","seedPrice":"0.01","level":"1"},{"id":"potato","name":"Potato","href":"/fr/crops/potato","icon":"/icons/potato.png","category":"Basique","seasons":["summer","autumn","winter"],"sell":"0.14","time":"5 min","seedPrice":"0.1","level":"1"},{"id":"rhubarb","name":"Rhubarb","href":"/fr/crops/rhubarb","icon":"/icons/rhubarb.png","category":"Basique","seasons":["spring"],"sell":"0.24","time":"10 min","seedPrice":"0.15","level":"1"},{"id":"pumpkin","name":"Pumpkin","href":"/fr/crops/pumpkin","icon":"/icons/pumpkin.png","category":"Basique","seasons":["autumn"],"sell":"0.4","time":"30 min","seedPrice":"0.2","level":"2"},{"id":"zucchini","name":"Zucchini","href":"/fr/crops/zucchini","icon":"/icons/zucchini.png","category":"Basique","seasons":["summer"],"sell":"0.4","time":"30 min","seedPrice":"0.2","level":"2"},{"id":"carrot","name":"Carrot","href":"/fr/crops/carrot","icon":"/icons/carrot.png","category":"Moyenne","seasons":["spring","autumn"],"sell":"0.8","time":"1 h","seedPrice":"0.5","level":"2"},{"id":"yam","name":"Yam","href":"/fr/crops/yam","icon":"/icons/yam.png","category":"Moyenne","seasons":["autumn"],"sell":"0.8","time":"1 h","seedPrice":"0.5","level":"2"},{"id":"cabbage","name":"Cabbage","href":"/fr/crops/cabbage","icon":"/icons/cabbage.png","category":"Moyenne","seasons":["spring","winter"],"sell":"1.5","time":"2 h","seedPrice":"1","level":"3"},{"id":"broccoli","name":"Broccoli","href":"/fr/crops/broccoli","icon":"/icons/broccoli.png","category":"Moyenne","seasons":["autumn"],"sell":"1.5","time":"2 h","seedPrice":"1","level":"3"},{"id":"soybean","name":"Soybean","href":"/fr/crops/soybean","icon":"/icons/soybean.png","category":"Moyenne","seasons":["spring","autumn"],"sell":"2.3","time":"3 h","seedPrice":"1.5","level":"3"},{"id":"beetroot","name":"Beetroot","href":"/fr/crops/beetroot","icon":"/icons/beetroot.png","category":"Moyenne","seasons":["summer","winter"],"sell":"2.8","time":"4 h","seedPrice":"2","level":"3"},{"id":"pepper","name":"Pepper","href":"/fr/crops/pepper","icon":"/icons/pepper.png","category":"Moyenne","seasons":["summer"],"sell":"3","time":"4 h","seedPrice":"2","level":"3"},{"id":"cauliflower","name":"Cauliflower","href":"/fr/crops/cauliflower","icon":"/icons/cauliflower.png","category":"Moyenne","seasons":["summer","winter"],"sell":"4.25","time":"8 h","seedPrice":"3","level":"4"},{"id":"parsnip","name":"Parsnip","href":"/fr/crops/parsnip","icon":"/icons/parsnip.png","category":"Moyenne","seasons":["winter"],"sell":"6.5","time":"12 h","seedPrice":"5","level":"4"},{"id":"eggplant","name":"Eggplant","href":"/fr/crops/eggplant","icon":"/icons/eggplant.png","category":"Avancée","seasons":["summer"],"sell":"8","time":"16 h","seedPrice":"6","level":"5"},{"id":"corn","name":"Corn","href":"/fr/crops/corn","icon":"/icons/corn.png","category":"Avancée","seasons":["spring"],"sell":"9","time":"20 h","seedPrice":"7","level":"5"},{"id":"onion","name":"Onion","href":"/fr/crops/onion","icon":"/icons/onion.png","category":"Avancée","seasons":["winter"],"sell":"10","time":"20 h","seedPrice":"7","level":"5"},{"id":"radish","name":"Radish","href":"/fr/crops/radish","icon":"/icons/radish.png","category":"Avancée","seasons":["summer"],"sell":"9.5","time":"24 h","seedPrice":"7","level":"5"},{"id":"wheat","name":"Wheat","href":"/fr/crops/wheat","icon":"/icons/wheat.png","category":"Avancée","seasons":["spring","summer","autumn","winter"],"sell":"7","time":"24 h","seedPrice":"5","level":"5"},{"id":"turnip","name":"Turnip","href":"/fr/crops/turnip","icon":"/icons/turnip.png","category":"Avancée","seasons":["winter"],"sell":"8","time":"24 h","seedPrice":"5","level":"6"},{"id":"kale","name":"Kale","href":"/fr/crops/kale","icon":"/icons/kale.png","category":"Avancée","seasons":["spring","winter"],"sell":"10","time":"36 h","seedPrice":"7","level":"7"},{"id":"artichoke","name":"Artichoke","href":"/fr/crops/artichoke","icon":"/icons/artichoke.png","category":"Avancée","seasons":["autumn"],"sell":"12","time":"36 h","seedPrice":"7","level":"8"},{"id":"barley","name":"Barley","href":"/fr/crops/barley","icon":"/icons/barley.png","category":"Avancée","seasons":["spring","autumn"],"sell":"12","time":"48 h","seedPrice":"10","level":"14"},{"id":"saltwort","name":"Saltwort","href":"/fr/crops/saltwort","icon":"/icons/saltwort.png","category":"Moyenne","seasons":["event"],"sell":"50","time":"12 h","seedPrice":"10","level":"1"}];
-</script>
+## Basiques
 
-<ProduceTable locale="fr" kind="crops" :rows="rows" />
+| Culture | Saisons | Vente | Récolte | Graine | Niveau |
+|---|---|---:|---|---:|---:|
+| [Sunflower](/fr/crops/sunflower) | Printemps, Été | 0.02 | 1 min | 0.01 | 1 |
+| [Potato](/fr/crops/potato) | Été, Automne, Hiver | 0.14 | 5 min | 0.1 | 1 |
+| [Rhubarb](/fr/crops/rhubarb) | Printemps | 0.24 | 10 min | 0.15 | 1 |
+| [Pumpkin](/fr/crops/pumpkin) | Automne | 0.4 | 30 min | 0.2 | 2 |
+| [Zucchini](/fr/crops/zucchini) | Été | 0.4 | 30 min | 0.2 | 2 |
 
----
+## Moyennes
 
-_Données extraites de `crops.ts` @ `3de9b18`. Wiki fan non officiel._
+| Culture | Saisons | Vente | Récolte | Graine | Niveau |
+|---|---|---:|---|---:|---:|
+| [Carrot](/fr/crops/carrot) | Printemps, Automne | 0.8 | 1 h | 0.5 | 2 |
+| [Yam](/fr/crops/yam) | Automne | 0.8 | 1 h | 0.5 | 2 |
+| [Cabbage](/fr/crops/cabbage) | Printemps, Hiver | 1.5 | 2 h | 1 | 3 |
+| [Broccoli](/fr/crops/broccoli) | Automne | 1.5 | 2 h | 1 | 3 |
+| [Soybean](/fr/crops/soybean) | Printemps, Automne | 2.3 | 3 h | 1.5 | 3 |
+| [Beetroot](/fr/crops/beetroot) | Été, Hiver | 2.8 | 4 h | 2 | 3 |
+| [Pepper](/fr/crops/pepper) | Été | 3 | 4 h | 2 | 3 |
+| [Cauliflower](/fr/crops/cauliflower) | Été, Hiver | 4.25 | 8 h | 3 | 4 |
+| [Parsnip](/fr/crops/parsnip) | Hiver | 6.5 | 12 h | 5 | 4 |
+| [Saltwort](/fr/crops/saltwort) | Événement | 50 | 12 h | 10 | 1 |
+
+## Avancées
+
+| Culture | Saisons | Vente | Récolte | Graine | Niveau |
+|---|---|---:|---|---:|---:|
+| [Eggplant](/fr/crops/eggplant) | Été | 8 | 16 h | 6 | 5 |
+| [Corn](/fr/crops/corn) | Printemps | 9 | 20 h | 7 | 5 |
+| [Onion](/fr/crops/onion) | Hiver | 10 | 20 h | 7 | 5 |
+| [Radish](/fr/crops/radish) | Été | 9.5 | 24 h | 7 | 5 |
+| [Wheat](/fr/crops/wheat) | Toutes saisons | 7 | 24 h | 5 | 5 |
+| [Turnip](/fr/crops/turnip) | Hiver | 8 | 24 h | 5 | 6 |
+| [Kale](/fr/crops/kale) | Printemps, Hiver | 10 | 36 h | 7 | 7 |
+| [Artichoke](/fr/crops/artichoke) | Automne | 12 | 36 h | 7 | 8 |
+| [Barley](/fr/crops/barley) | Printemps, Automne | 12 | 48 h | 10 | 14 |
+
+_Source : `reference/sunflower-land` · pin dans `reference/version.json`_

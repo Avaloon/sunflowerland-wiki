@@ -1,6 +1,6 @@
 /**
  * Build the VitePress site locally and push only the static output to gh-pages.
- * No GitHub Actions — sync/extract/generate/build all stay on your machine.
+ * No GitHub Actions — sync, edit docs, and build stay on your machine.
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdtempSync, rmSync, cpSync } from "node:fs";
