@@ -15,7 +15,71 @@ h1 ~ .item-icon:first-of-type {
   margin: 0.5rem 0 1rem;
 }
 
-.vp-doc ol li .item-icon {
+.vp-doc ol li .item-icon,
+.vp-doc p .item-icon,
+.vp-doc td .item-icon {
   display: inline-block;
   vertical-align: middle;
+}
+
+.building-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin: 0.75rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.building-index a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-alt);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--vp-c-brand-1);
+}
+
+.building-index a:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.building-card {
+  margin: 1.75rem 0;
+  padding: 1rem 1.1rem 1.15rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  scroll-margin-top: 5rem;
+}
+
+.building-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0;
+  border-top: none;
+  padding-top: 0;
+}
+
+.building-card .building-hero {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.building-meta {
+  width: 100%;
+  margin: 0.75rem 0 0;
+}
+
+.building-meta th {
+  text-align: left;
+  width: 40%;
 }

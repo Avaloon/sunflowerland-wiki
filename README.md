@@ -51,6 +51,7 @@ The pinned game commit is in [`reference/version.json`](reference/version.json).
 ## Content status
 
 - **Crops** (`docs/*/crops/`) — example section filled from the game sources
+- **Skills** (`docs/*/skills/`) — full revamp skill tree (149 skills), regenerable via `npm run generate:skills`
 - Other sections — stubs to complete by reading the local legend
 
 ## Licence / disclaimer
